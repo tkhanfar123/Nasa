@@ -1,0 +1,93 @@
+[
+  {
+    "id": "mercury",
+    "name": "Mercury",
+    "kind": "Planet",
+    "order": 1,
+    "color": "#b9a99a",
+    "schematicRadius": 9,
+    "primary": "The smallest planet and the closest to the Sun. Its days are very hot, but some craters at its poles never get any sunlight.",
+    "secondary": "The planet closest to the Sun, and one of the hardest to orbit, because a spacecraft must shed a lot of speed. Mariner 10 flew past it in the 1970s; MESSENGER became the first spacecraft to orbit it, in 2011."
+  },
+  {
+    "id": "venus",
+    "name": "Venus",
+    "kind": "Planet",
+    "order": 2,
+    "color": "#e8c27a",
+    "schematicRadius": 13,
+    "primary": "A planet wrapped in thick clouds. Its air is very heavy and very hot, so machines cannot survive long on its surface.",
+    "secondary": "Its atmosphere is dense, hot and under high pressure, so it is usually studied by probes that fall through it or by orbiters. Probes that reached the surface worked only for a short time."
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "kind": "Planet — starting point",
+    "order": 3,
+    "color": "#4fa3e0",
+    "schematicRadius": 14,
+    "isStart": true,
+    "primary": "Home! Every spacecraft on this site was launched from here. Pick a destination to start your journey.",
+    "secondary": "The launch point and control center for every mission here: spacecraft signals are received by giant antennas on Earth. Pick a destination to begin."
+  },
+  {
+    "id": "moon",
+    "name": "The Moon",
+    "kind": "Earth's natural satellite (not a planet)",
+    "order": 3.5,
+    "color": "#cfcfd6",
+    "schematicRadius": 6,
+    "primary": "The Moon is not a planet. It is Earth's natural satellite: a world that travels around Earth. It is our closest neighbor in space, and people have walked on it.",
+    "secondary": "The Moon is Earth's only natural satellite and the only place beyond Earth where humans have walked (the Apollo program). It has almost no atmosphere, so hardware left there is exposed directly to radiation, extreme temperature swings and dust."
+  },
+  {
+    "id": "mars",
+    "name": "Mars",
+    "kind": "Planet",
+    "order": 4,
+    "color": "#d4683f",
+    "schematicRadius": 11,
+    "primary": "The Red Planet. Its color comes from dust containing rusty iron. Scientists search it for signs of ancient water.",
+    "secondary": "A rocky planet smaller than Earth with a thin atmosphere. Its dust storms can cover the whole planet, which matters a lot for solar-powered spacecraft. Its rocks preserve evidence of water in its past."
+  },
+  {
+    "id": "jupiter",
+    "name": "Jupiter",
+    "kind": "Gas giant",
+    "order": 5,
+    "color": "#d9a76a",
+    "schematicRadius": 30,
+    "primary": "The biggest planet in the Solar System. It has no solid ground to stand on, only clouds and gas. Many moons travel around it.",
+    "secondary": "A gas giant with no known solid surface; any spacecraft that enters it is destroyed by heat and pressure. Its large moons (Io, Europa, Ganymede and Callisto) are very different worlds from one another."
+  },
+  {
+    "id": "saturn",
+    "name": "Saturn",
+    "kind": "Gas giant",
+    "order": 6,
+    "color": "#e3cf8f",
+    "schematicRadius": 26,
+    "primary": "The planet with beautiful rings. It is also made of gas, with no solid surface, and it has amazing moons.",
+    "secondary": "A ringed gas giant. Its moons include Titan, with a thick atmosphere, and little Enceladus, which sprays plumes of water vapor and ice from its south pole."
+  },
+  {
+    "id": "uranus",
+    "name": "Uranus",
+    "kind": "Ice giant",
+    "order": 7,
+    "color": "#9fd8df",
+    "schematicRadius": 19,
+    "primary": "A very distant blue-green planet. Only one spacecraft has ever visited it, and it flew past without landing.",
+    "secondary": "A distant ice giant. Only Voyager 2 has seen it up close, during a single flyby in 1986, so there is no human-made hardware on it."
+  },
+  {
+    "id": "neptune",
+    "name": "Neptune",
+    "kind": "Ice giant",
+    "order": 8,
+    "color": "#4f6fe0",
+    "schematicRadius": 18,
+    "primary": "The planet farthest from the Sun. It is blue and very windy. Only one spacecraft has visited it, by flying past.",
+    "secondary": "The most distant of the eight planets, about 30 times farther from the Sun than Earth. Only Voyager 2 has visited it, in a 1989 flyby."
+  }
+]

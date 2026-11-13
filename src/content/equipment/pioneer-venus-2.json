@@ -1,0 +1,169 @@
+{
+  "id": "pioneer-venus-2",
+  "name": "Pioneer Venus 2 (Pioneer Venus Multiprobe)",
+  "mission": { "name": "Pioneer Venus Project", "partners": ["NASA", "NASA Ames Research Center"] },
+  "equipmentType": "Carrier spacecraft ('bus') + four atmospheric entry probes",
+  "illustration": "multiprobe",
+  "destinations": [
+    { "id": "venus", "encounterTypes": ["atmospheric-entry", "surface-impact"], "note": "The bus and all four probes entered the atmosphere; the bus burned up high above, and the probes struck the surface. This was not a designed landing." }
+  ],
+  "encounterType": ["atmospheric-entry", "surface-impact"],
+  "launchDate": "1978-08-08",
+  "arrivalDate": "1978-12-09",
+  "lastContactDate": "1978-12-09",
+  "missionEndDate": "1978-12-09",
+  "dateNotes": [
+    "Pioneer Venus 1 was a separate orbiter launched in May 1978; it is not part of this record.",
+    "The final transmission came from the Day Probe on the surface, about 67 minutes 37 seconds after its impact."
+  ],
+  "status": { "code": "destroyed", "text": "The bus burned up in the atmosphere, and the probes stopped after striking the surface on December 9, 1978" },
+  "finalFate": "The carrier bus burned up at about 120 km altitude. All four probes hit the surface; none was designed to survive, yet two small probes did, and the Day Probe transmitted from the surface for 67 minutes 37 seconds before heat, pressure and power loss ended it. There is no evidence about the condition of the probes' remains today, and they should not be assumed intact.",
+  "location": {
+    "description": "Widely separated impact sites on Venus: Large Probe (4.4°N, 304°E), North (60°N, 4°E), Day (32°S, 318°E), Night (27°S, 56°E) — according to NASA.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Bus Neutral and Ion Mass Spectrometers", "role": "Measured the composition of the upper atmosphere before the bus burned up." },
+    { "name": "Temperature, pressure and acceleration sensors (small probes)", "role": "Recorded how temperature and pressure changed with altitude during descent." },
+    { "name": "Nephelometer and cloud particle size spectrometer", "role": "Measured cloud and haze layers." },
+    { "name": "Gas chromatograph, solar flux and infrared radiometers", "role": "Analyzed gases and energy flow in the atmosphere." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "Thermometers falling from the sky",
+      "howItWorks": "Each probe carried thermometers and pressure sensors, and sent the numbers to Earth as it fell through the clouds.",
+      "knowledge": "By comparing four different places, scientists learned that the temperature low down is almost the same everywhere."
+    },
+    "secondary": {
+      "title": "Four probes instead of one: the power of comparison",
+      "howItWorks": "The probes descended at widely separated sites (north, day side, night side and near the equator) at almost the same time, each measuring temperature, pressure and clouds with altitude.",
+      "knowledge": "Because the measurements were simultaneous and far apart, scientists could say temperatures below 50 km were nearly identical despite thousands of kilometers between sites — a conclusion one probe could never support."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "Venus's atmosphere is dense, hot and high-pressure, and the goal was measurements from several places at once.",
+    "solution": "A bus carrying four probes released them weeks before arrival so their paths spread apart; the Large Probe used a parachute, while the small probes fell without parachutes. None was designed to survive impact."
+  },
+  "discoveries": [
+    { "text": "Between about 10 and 50 km there is almost no convection in the atmosphere.", "kind": "outcome" },
+    { "text": "Below a haze layer at about 30 km, the atmosphere is relatively clear.", "kind": "outcome" },
+    { "text": "Temperatures below 50 km were very similar at all four widely separated sites.", "kind": "outcome" },
+    { "text": "The bus returned important data on the upper atmosphere before burning up.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1978-08-08", "text": "Launch from Cape Canaveral." },
+    { "date": "1978-11-16", "text": "Large Probe released about 11.1 million km from Venus." },
+    { "date": "1978-11-20", "text": "The three small probes (North, Day and Night) are released." },
+    { "date": "1978-12-09", "text": "All five components enter the atmosphere, the Large Probe first." },
+    { "date": "1978-12-09", "text": "Probes strike the surface; the Day Probe transmits from the surface for 67 min 37 s; the bus burns up at about 120 km." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Pioneer Venus 2, but I am not just one spacecraft! I am a carrier, and I brought four probes with me. We traveled together to the planet Venus in 1978." },
+      { "key": "why", "text": "We were sent to measure Venus's thick air — its heat, its pressure and what it is made of — while falling through it." },
+      { "key": "how", "text": "Before arriving, I released the four probes. Each fell in a different place, sending measurements." },
+      { "key": "learn", "text": "Scientists found the low air had nearly the same temperature in places far apart, and was fairly clear below a hazy layer." },
+      { "key": "fate", "text": "I burned up high in the air. The probes hit the ground; they weren't built to survive. But one of them, the Day Probe, sent measurements from the surface for 67 minutes!" }
+    ],
+    "glossary": [
+      { "term": "Probe", "meaning": "A small device sent to measure things in a hard-to-reach place and send back what it finds." },
+      { "term": "Atmosphere", "meaning": "The layer of gases (air) around a planet." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Pioneer Venus 2, also called the Pioneer Venus Multiprobe. I launched on August 8, 1978, and I am really five spacecraft: the carrier bus, one Large Probe, and three identical small probes named North, Day and Night. Pioneer Venus 1 was a separate orbiter." },
+      { "key": "why", "text": "The goal was direct data on the atmosphere during descent, at several places at almost the same time, because a single probe cannot tell whether conditions are similar across the whole planet." },
+      { "key": "how", "text": "I released the Large Probe on November 16, 1978, and the small ones four days later. On December 9 we all entered. The probes opened their instrument doors at about 70 kilometers; the Large Probe descended by parachute, the small ones without, each taking 53 to 56 minutes to reach the surface." },
+      { "key": "learn", "text": "The measurements showed almost no convection between about 10 and 50 kilometers, relatively clear air below a haze layer at about 30 kilometers, and temperatures below 50 kilometers that were nearly the same even though the entry sites were thousands of kilometers apart." },
+      { "key": "fate", "text": "I, the bus, entered the atmosphere and burned up at about 120 kilometers after sending data on the upper layers. The probes were not designed to survive impact, yet two did, and the Day Probe transmitted from the surface for 67 minutes 37 seconds before heat, pressure and power loss overcame it. There is no evidence about our remains today." }
+    ],
+    "glossary": [
+      { "term": "Convection", "meaning": "Warm air rising and cool air sinking, which mixes the atmosphere." },
+      { "term": "Parachute", "meaning": "A large canopy that slows a falling object." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "sequencing",
+    "title": "Put the probes' journey in order",
+    "instructions": "Order the events from first to last with ▲ and ▼, then press “Check”.",
+    "items": [
+      "Launching together from Earth",
+      "Releasing the probes before reaching Venus",
+      "Falling through the thick air while sending measurements",
+      "Hitting the surface, with the Day Probe still sending from there"
+    ],
+    "questions": [
+      {
+        "q": "How many probes did the carrier spacecraft bring?",
+        "options": ["One probe", "Four probes", "Ten probes"],
+        "correctIndex": 1,
+        "explanation": "One large probe and three small probes: four in total. Excellent!"
+      },
+      {
+        "q": "What happened to the carrier spacecraft itself?",
+        "options": ["It landed safely on the surface", "It burned up high in the atmosphere", "It returned to Earth"],
+        "correctIndex": 1,
+        "explanation": "The bus was not designed to land; it entered the atmosphere and burned up, but it sent measurements first."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Four sites, one conclusion",
+    "instructions": "Study the impact sites and each probe's fate, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Data from NASA's Pioneer Venus 2 page. NASA says two of the small probes survived impact but names only the Day Probe.",
+    "table": {
+      "headers": ["Component", "Impact site", "Fate"],
+      "rows": [
+        ["Large Probe", "4.4°N, 304°E", "Transmissions ended at impact, as expected"],
+        ["North Probe", "60°N, 4°E", "NASA's page does not describe what happened after impact"],
+        ["Day Probe", "32°S, 318°E", "Transmitted from the surface for 67 min 37 s"],
+        ["Night Probe", "27°S, 56°E", "NASA's page does not describe what happened after impact"],
+        ["Bus", "—", "Burned up at about 120 km"]
+      ]
+    },
+    "task": {
+      "q": "Why were widely separated sites essential for concluding that low-altitude temperatures are 'similar across the planet'?",
+      "options": ["Comparing sites far apart is what allows a generalization; one site is not enough", "Separated probes fall faster", "Separation prevents impact"],
+      "correctIndex": 0,
+      "explanation": "If all probes had landed in the same spot, we couldn't tell whether the similarity was special to that place. The experimental design (several simultaneous sites) gave the conclusion its strength."
+    },
+    "questions": [
+      {
+        "q": "Is it correct to call Pioneer Venus 2 a 'Venus lander'?",
+        "options": ["No — it was atmospheric probes that hit the surface plus a bus that burned up", "Yes — everything landed intact", "Yes — it still works"],
+        "correctIndex": 0,
+        "explanation": "Being precise about the encounter type (atmospheric entry, impact) avoids the false picture of hardware 'parked' there."
+      },
+      {
+        "q": "The Day Probe transmitting from the surface was…",
+        "options": ["An unplanned bonus, since the probes weren't designed to survive", "A guaranteed main goal", "A data error"],
+        "correctIndex": 0,
+        "explanation": "The goal was measuring during descent. Transmitting from the surface was an extra that the design did not rely on."
+      },
+      {
+        "q": "Do we have evidence that the probes' remains are intact today?",
+        "options": ["No — there is no evidence, and surface conditions are extremely harsh", "Yes — they were photographed recently", "Yes — they still transmit"],
+        "correctIndex": 0,
+        "explanation": "When there's no evidence, we say 'unknown' rather than assume."
+      }
+    ]
+  },
+  "badge": { "name": "Cloud Diver Badge", "emoji": "🪂" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a cylindrical bus with four cone-shaped probes separating from it before atmospheric entry.",
+  "imageCredit": "Schematic drawing of the bus and probes before atmospheric entry — made for the Explorer Echoes project. They no longer exist in this form.",
+  "imageSourceUrl": "https://science.nasa.gov/mission/pioneer-venus-2/",
+  "factSources": [
+    { "title": "Pioneer Venus 2", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/pioneer-venus-2/", "primary": true, "supports": "All dates, spacecraft components, impact sites, 67 min 37 s, bus burning up at ~120 km, instruments, science findings." },
+    { "title": "This Month in NASA History: Pioneer Venus Multiprobe", "publisher": "NASA APPEL", "url": "https://appel.nasa.gov/2010/02/22/aa_1-7_sf_history-html/", "primary": true, "supports": "Large Probe with parachute, small probes without; probes not designed to survive." },
+    { "title": "Pioneer Venus mission overview (PDS)", "publisher": "NASA Planetary Data System", "url": "https://pds.nasa.gov/data/pvo-v-pos-5--vsocoords-12sec-v1.0/pv01_0001/document/mission/mission.asc", "primary": true, "supports": "Separation of orbiter and multiprobe; Day Probe transmitting over 67 minutes." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "NASA's page says '67.5 minutes' in one place and '67 minutes, 37 seconds' in another; we used the more precise figure.",
+    "The identity of the second small probe that survived impact is not given on the NASA page we reviewed."
+  ]
+}

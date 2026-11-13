@@ -1,0 +1,176 @@
+{
+  "id": "cassini",
+  "name": "Cassini (Cassini–Huygens mission)",
+  "mission": { "name": "Cassini–Huygens", "partners": ["NASA", "European Space Agency (ESA)", "Italian Space Agency (ASI)"] },
+  "equipmentType": "Orbiter (carried ESA's Huygens probe)",
+  "illustration": "cassini",
+  "destinations": [
+    { "id": "saturn", "encounterTypes": ["orbit", "atmospheric-entry"], "note": "Orbited Saturn for 13 years, then deliberately plunged into its atmosphere and burned up in 2017." }
+  ],
+  "encounterType": ["orbit", "atmospheric-entry"],
+  "launchDate": "1997-10-15",
+  "arrivalDate": "2004-07-01",
+  "lastContactDate": "2017-09-15",
+  "missionEndDate": "2017-09-15",
+  "dateNotes": [
+    "Saturn orbit insertion: July 1, 2004 UTC (June 30 in California time).",
+    "The Huygens probe, built by the European Space Agency, landed on Titan on January 14, 2005; Titan is not a separate destination on this site."
+  ],
+  "status": { "code": "destroyed", "text": "Deliberately burned up in Saturn's atmosphere on September 15, 2017 — no longer exists" },
+  "finalFate": "With little propellant left for course corrections, the team ended the mission with 22 dives between Saturn and its rings (the 'Grand Finale'), then a final plunge into the atmosphere, sending data until it burned up. The goal: protect moons that might support life, such as Enceladus and Titan, from contamination.",
+  "location": {
+    "description": "No spacecraft remains: Cassini burned up in Saturn's atmosphere.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Dual Technique Magnetometer", "role": "Measured Saturn's magnetosphere and how the moons affect it." },
+    { "name": "Imaging Science Subsystem", "role": "Photographed the rings, the moons and the plumes of Enceladus." },
+    { "name": "Synthetic Aperture Radar", "role": "Saw Titan's surface through its hazy atmosphere." },
+    { "name": "Radio Science Subsystem", "role": "Measured gravity and the rings through changes in radio signals." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A camera that caught ice fountains",
+      "howItWorks": "Cassini flew close to the little moon Enceladus many times, taking pictures and measuring what was around it.",
+      "knowledge": "Scientists saw fountains of water vapor and ice shooting from its south pole, and understood there is water under its ice."
+    },
+    "secondary": {
+      "title": "From a 'hint' to an 'ocean world': the chain of evidence at Enceladus",
+      "howItWorks": "During the first close flyby (February 17, 2005) an unexpected hint appeared. Later flybys confirmed a plume shooting water vapor and ice grains at about 400 m/s, and the spacecraft flew through it to analyze its material.",
+      "knowledge": "The plume is a direct observation; the global ocean beneath the crust and the signs of hydrothermal activity are conclusions that combine several measurements."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "As propellant ran low, the team had to make sure the spacecraft would never one day crash into a moon that might support life.",
+    "solution": "Design the 'Grand Finale' orbits — 22 dives between Saturn and its rings to collect new science — then end the mission by entering the atmosphere."
+  },
+  "discoveries": [
+    { "text": "ESA's Huygens probe landed on Titan on January 14, 2005 — the first landing in the outer Solar System.", "kind": "outcome" },
+    { "text": "Plumes of water vapor and ice shoot from Enceladus's south pole; some material falls back and some feeds Saturn's E ring.", "kind": "outcome" },
+    { "text": "Enceladus has a global ocean between its rocky core and icy crust, with signs of hydrothermal activity.", "kind": "interpretation" },
+    { "text": "Hexagonal cloud patterns observed around Saturn's north pole.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1997-10-15", "text": "Launch from Cape Canaveral carrying the Huygens probe." },
+    { "date": "2004-07-01", "text": "First spacecraft to enter orbit around Saturn (UTC)." },
+    { "date": "2004-12-24", "text": "Huygens separates from Cassini." },
+    { "date": "2005-01-14", "text": "Huygens lands on Titan." },
+    { "date": "2005-02-17", "text": "First close flyby of Enceladus and first hint of the plume." },
+    { "date": "2017-04-22", "text": "Final (127th) close flyby of Titan; the Grand Finale begins." },
+    { "date": "2017-09-15", "text": "Final plunge into Saturn's atmosphere." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Cassini, a big spacecraft about the size of a school bus. NASA, the European Space Agency and the Italian Space Agency made me together." },
+      { "key": "why", "text": "I was sent to study Saturn, its rings and its moons. I also carried a European probe called Huygens, which went down to the big moon Titan." },
+      { "key": "how", "text": "I circled Saturn for 13 years. I flew close to its moons many times to photograph and measure them." },
+      { "key": "learn", "text": "I discovered fountains of water vapor and ice shooting out of the little moon Enceladus. Scientists think there is an ocean of water under its ice." },
+      { "key": "fate", "text": "When my fuel was running low, I dove into Saturn's air on purpose in 2017 and burned up. That way I could never crash into a moon that might support life." }
+    ],
+    "glossary": [
+      { "term": "Fountain", "meaning": "Water or vapor shooting upward with force." },
+      { "term": "Space agency", "meaning": "An organization that builds spacecraft and runs space missions for a country or group of countries." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Cassini, the orbiter of the Cassini–Huygens mission, a cooperative project of NASA, the European Space Agency (ESA) and the Italian Space Agency (ASI). The Jet Propulsion Laboratory designed and assembled me. I launched on October 15, 1997, and entered orbit around Saturn on July 1, 2004." },
+      { "key": "why", "text": "My goals were to study Saturn, its magnetosphere and rings, Titan and the other icy moons. I carried ESA's Huygens probe, which landed on Titan on January 14, 2005 — the first landing in the outer Solar System." },
+      { "key": "how", "text": "During my first close flyby of Enceladus on February 17, 2005, a hint of something unusual appeared. With later flybys we detected a plume of water vapor and ice grains leaving its south pole at about 400 meters per second; some falls back onto the moon, and some feeds Saturn's E ring." },
+      { "key": "learn", "text": "The mission gathered evidence for a global water ocean between the rocky core and icy crust of Enceladus, and signs of hydrothermal activity. The plume is a direct observation; the global ocean and its habitability are conclusions built on several measurements together." },
+      { "key": "fate", "text": "As my propellant ran low, the team chose a safe ending: 22 weekly dives between Saturn and its rings, called the 'Grand Finale', and then a plunge into the atmosphere on September 15, 2017. I sent data until the end and burned up, protecting Enceladus and Titan from contamination." }
+    ],
+    "glossary": [
+      { "term": "Magnetosphere", "meaning": "The region around a planet controlled by its magnetic field." },
+      { "term": "E ring", "meaning": "One of Saturn's wide outer rings, supplied by material from the Enceladus plume." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each name to its description",
+    "instructions": "Tap a card in the first column, then tap the matching description.",
+    "pairs": [
+      { "left": "Huygens", "right": "A European probe that landed on Titan" },
+      { "left": "Enceladus", "right": "A moon with fountains of water and ice" },
+      { "left": "The three agencies", "right": "NASA, the European and the Italian space agencies" },
+      { "left": "The final dive", "right": "Protected the moons from contamination" }
+    ],
+    "questions": [
+      {
+        "q": "Who made the Cassini–Huygens mission?",
+        "options": ["NASA alone", "NASA, the European Space Agency and the Italian Space Agency", "A car company"],
+        "correctIndex": 1,
+        "explanation": "It was an international team mission — working together made it possible."
+      },
+      {
+        "q": "What did Cassini discover at the moon Enceladus?",
+        "options": ["Fountains of water vapor and ice", "Mountains of gold", "Forests"],
+        "correctIndex": 0,
+        "explanation": "The fountains come from its south pole and point to water under the ice."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Where does the plume material go?",
+    "instructions": "Study the observations, then draw a conclusion.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified observations from NASA's Enceladus and Cassini pages.",
+    "table": {
+      "headers": ["Observation", "Value / description"],
+      "rows": [
+        ["Speed of ejected material", "About 400 m/s"],
+        ["Extent of the plume", "Hundreds of miles into space"],
+        ["Fate of some material", "Falls back onto Enceladus"],
+        ["Fate of other material", "Escapes and forms Saturn's E ring"]
+      ]
+    },
+    "task": {
+      "q": "Some material falls back and some escapes. What does that suggest about the grains' speeds?",
+      "options": ["Grains have a range of speeds: some exceed the moon's escape speed and some don't", "All grains move at exactly the same speed", "Enceladus has no gravity"],
+      "correctIndex": 0,
+      "explanation": "'About 400 m/s' is a rough average. A spread of speeds explains why some material returns while some feeds the ring."
+    },
+    "questions": [
+      {
+        "q": "Which agency provided the Huygens probe?",
+        "options": ["The European Space Agency (ESA)", "The Italian Space Agency (ASI)", "NASA"],
+        "correctIndex": 0,
+        "explanation": "Huygens was a European probe, Cassini a NASA spacecraft, and ASI a mission partner. Giving accurate credit is part of scientific honesty."
+      },
+      {
+        "q": "Why was the mission ended by diving into Saturn instead of leaving the spacecraft in orbit?",
+        "options": ["An uncontrolled spacecraft might one day hit a moon that could support life", "Saturn would swallow it tomorrow anyway", "To bring it back to Earth"],
+        "correctIndex": 0,
+        "explanation": "This is the principle of planetary protection. The final plunge also returned unique data from inside the atmosphere."
+      },
+      {
+        "q": "Which statement is an interpretation?",
+        "options": ["There is a global ocean under Enceladus's crust", "Material is ejected at about 400 m/s", "Huygens landed on January 14, 2005"],
+        "correctIndex": 0,
+        "explanation": "The speed and landing date are measurements and events. The global ocean is a conclusion drawn from several lines of evidence."
+      }
+    ]
+  },
+  "badge": { "name": "Fountain Hunter Badge", "emoji": "🪐" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a large orbiter with a white dish antenna, a cylindrical body and a disk-shaped probe on its side.",
+  "imageCredit": "Schematic drawing of the spacecraft during its mission — made for the Explorer Echoes project. The spacecraft burned up in 2017 and no longer exists.",
+  "imageSourceUrl": "https://science.nasa.gov/mission/cassini/",
+  "factSources": [
+    { "title": "Cassini Quick Facts", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/cassini/quick-facts", "primary": true, "supports": "Saturn arrival July 1, 2004 UTC." },
+    { "title": "Cassini Timeline", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/cassini/the-journey/timeline/", "primary": true, "supports": "Huygens landing and 72 minutes on the surface; evidence of water reservoirs." },
+    { "title": "Enceladus", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/cassini/science/enceladus", "primary": true, "supports": "Material at ~400 m/s; plume extent; feeding the E ring." },
+    { "title": "An Ice World…With an Ocean?", "publisher": "NASA Science", "url": "https://science.nasa.gov/?p=64911", "primary": true, "supports": "First hint of the plume during the close flyby on February 17, 2005." },
+    { "title": "Cassini's Grand Finale", "publisher": "NASA Astrobiology", "url": "https://astrobiology.nasa.gov/news/cassinis-grand-finale/", "primary": true, "supports": "Burned up September 15, 2017; 22 dives; Enceladus global ocean." },
+    { "title": "Cassini Becomes Part Of Saturn (NASA release)", "publisher": "NASA (via SpaceRef)", "url": "https://spaceref.com/science-and-exploration/cassini-becomes-part-of-saturn/", "primary": false, "supports": "NASA–ESA–ASI partnership; protecting Enceladus; 22 weekly dives." },
+    { "title": "Countdown to Cassini's Grand Finale", "publisher": "European Space Agency", "url": "https://www.esa.int/Science_Exploration/Space_Science/Cassini-Huygens/Countdown_to_Cassini_s_Grand_Finale", "primary": true, "supports": "Final (127th) Titan flyby April 22, 2017; first landing in the outer Solar System; planetary protection." },
+    { "title": "Cassini concludes pioneering mission at Saturn", "publisher": "European Space Agency", "url": "https://sci.esa.int/web/cassini-huygens/-/59514-cassini-concludes-pioneering-mission-at-saturn", "primary": true, "supports": "Launch October 15, 1997; arrival June 30, 2004 (Pacific time)." },
+    { "title": "Cassini Turns 15", "publisher": "Caltech", "url": "https://local.caltech.edu/news/cassini-turns-15-37095", "primary": false, "supports": "Described as school-bus-sized." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The Huygens separation date (December 24, 2004 Pacific time; December 25 UTC) depends on the time zone.",
+    "The hexagon mention comes from a NASA page on mission highlights; no further detail is included."
+  ]
+}

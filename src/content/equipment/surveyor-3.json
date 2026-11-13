@@ -1,0 +1,166 @@
+{
+  "id": "surveyor-3",
+  "name": "Surveyor 3",
+  "mission": { "name": "Surveyor Program", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)"] },
+  "equipmentType": "Robotic lunar lander (uncrewed)",
+  "illustration": "surveyor",
+  "destinations": [
+    { "id": "moon", "encounterTypes": ["surface-landing"], "note": "Soft landing on the surface; visited by Apollo 12 astronauts two and a half years later." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "1967-04-17",
+  "arrivalDate": "1967-04-20",
+  "lastContactDate": "1967-05-04",
+  "missionEndDate": null,
+  "dateNotes": [
+    "NASA gives the last contact date (May 4, 1967) but we found no separate official mission-closure date, so that field is empty.",
+    "The Apollo 12 visit date (November 19, 1969) is as given on NASA's page; it may differ by one day in UTC."
+  ],
+  "status": { "code": "partially-returned", "text": "Silent since 1967; some parts were brought back to Earth and the main body remains on the Moon" },
+  "finalFate": "In November 1969, Apollo 12 astronauts Charles Conrad and Alan Bean removed the TV camera, the scoop and other pieces and brought them back to Earth for study. The lander's body, legs and remaining parts stayed in their crater on the Moon. The returned camera is displayed at the Smithsonian National Air and Space Museum on loan from NASA (as reported in 2019).",
+  "location": {
+    "description": "Southeastern Oceanus Procellarum (Ocean of Storms) on the Moon.",
+    "coordinates": { "lat": -3.0, "lon": -23.41, "kind": "Landing site as given by NASA (3°S, 23.41°W)" }
+  },
+  "instruments": [
+    { "name": "TV camera", "role": "Photographed the surface and the movements of the sampling arm." },
+    { "name": "Surface sampler (arm and scoop)", "role": "Reached about 1.5 m, dug up to 18 cm deep and pressed on the soil to measure its strength." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A scoop that tests the ground",
+      "howItWorks": "The lander stretched out an arm with a small scoop at the end. The scoop dug and pressed the soil while the camera filmed.",
+      "knowledge": "Scientists learned the ground was strong enough to hold a lander with astronauts inside."
+    },
+    "secondary": {
+      "title": "The surface sampler: from pushing on soil to an engineering decision",
+      "howItWorks": "The arm reached about 1.5 m and dug up to 18 cm. Engineers compared the force applied with how far the scoop sank into the soil, as seen in camera images.",
+      "knowledge": "Measurement: bearing strength of about 0.7 kg/cm² and a texture like wet sand. Decision built on it: the soil could support the Apollo lunar module."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "Before Apollo, nobody knew whether the lunar soil was firm, or deep dust that a lander might sink into.",
+    "solution": "Send a robotic lander that measures the soil directly with an arm and scoop instead of relying on pictures alone."
+  },
+  "discoveries": [
+    { "text": "The soil behaved like wet sand, with a bearing strength of about 0.7 kg/cm² (about 98 kPa).", "kind": "outcome" },
+    { "text": "Scientists concluded the lunar surface was solid enough to support the Apollo lunar module.", "kind": "interpretation" },
+    { "text": "The returned parts allowed study of how materials and electronics changed after about two and a half years on the Moon.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1967-04-17", "text": "Launch from Earth." },
+    { "date": "1967-04-20", "text": "Soft landing in southeastern Oceanus Procellarum." },
+    { "date": "1967-05-04", "text": "Last contact with the lander." },
+    { "date": "1969-11-19", "text": "Apollo 12 astronauts walk to Surveyor 3 and remove the camera, scoop and other pieces." },
+    { "date": "1969-11", "text": "The parts return to Earth with the Apollo 12 crew; the lander's body stays on the Moon." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Surveyor 3, a robot spacecraft with no astronauts inside. I landed gently on the Moon in 1967, and I stand on three legs." },
+      { "key": "why", "text": "I was sent before people came, to answer an important question: is the Moon's ground firm enough to hold a lander with astronauts inside?" },
+      { "key": "how", "text": "My arm had a little scoop. I dug and pressed the soil, and filmed it all with a TV camera." },
+      { "key": "learn", "text": "Scientists found that the soil is like wet sand, and strong enough to hold a lander. That helped the Apollo missions land safely." },
+      { "key": "fate", "text": "I went quiet after a few weeks. Two and a half years later, Apollo 12 astronauts visited me! They took my camera and scoop to Earth; my body stayed on the Moon." }
+    ],
+    "glossary": [
+      { "term": "Robot spacecraft", "meaning": "A machine controlled by people from far away, with nobody inside." },
+      { "term": "Soil", "meaning": "The dust and tiny grains that cover the ground." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Surveyor 3, a robotic lander from NASA's Surveyor program and the second in the program to make a soft landing on the Moon. I launched on April 17, 1967, and landed on April 20 in southeastern Oceanus Procellarum. The program's goal was to prove soft landings were possible before Apollo." },
+      { "key": "why", "text": "NASA was preparing crewed Apollo landings, and nobody knew how lunar soil would behave under the weight of a lunar module. Pictures show shape but not strength; a direct mechanical measurement was needed." },
+      { "key": "how", "text": "I carried a 'surface sampler': an arm that reached about 1.5 meters, dug up to 18 centimeters and pushed on the soil. My TV camera recorded every movement, so engineers could compare the force applied with how deep the scoop sank." },
+      { "key": "learn", "text": "The tests showed the soil behaved like wet sand, with a bearing strength of about 0.7 kilograms per square centimeter. The measurement is a direct result; the judgment that the soil could hold a lunar module is an engineering conclusion built on it." },
+      { "key": "fate", "text": "Contact was lost on May 4, 1967. In November 1969, Apollo 12 landed about 180 meters away. Charles Conrad and Alan Bean walked over and removed my camera, my scoop and other pieces to study the effects of two and a half years on the Moon. Those parts went to Earth; my main body stayed. I became a robotic spacecraft visited by humans on another world." }
+    ],
+    "glossary": [
+      { "term": "Soft landing", "meaning": "A controlled landing in which the spacecraft survives and keeps working, as opposed to a crash." },
+      { "term": "Bearing strength", "meaning": "The greatest pressure the soil can take before it gives way." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each part to its job",
+    "instructions": "Tap a card in the first column, then tap the job that goes with it.",
+    "pairs": [
+      { "left": "The scoop", "right": "Digs and presses the soil" },
+      { "left": "The camera", "right": "Takes pictures around the lander" },
+      { "left": "The three legs", "right": "Hold the lander above the ground" },
+      { "left": "The Apollo 12 astronauts", "right": "Brought some parts back to Earth" }
+    ],
+    "questions": [
+      {
+        "q": "What did NASA want to learn from Surveyor 3?",
+        "options": ["Whether the Moon's soil is strong enough for a lander", "Whether there are trees on the Moon", "How far away Mars is"],
+        "correctIndex": 0,
+        "explanation": "Before people landed, scientists needed to know the ground would not swallow the lander."
+      },
+      {
+        "q": "Which sentence about Surveyor 3 is true?",
+        "options": ["The whole lander came back to Earth", "Some parts came back to Earth and the body stayed on the Moon", "Nobody ever visited it"],
+        "correctIndex": 1,
+        "explanation": "The Apollo 12 astronauts brought back the camera, the scoop and other pieces; the lander's body stayed where it was."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Will the soil hold? An educational example",
+    "instructions": "Use the measured bearing strength to evaluate a hypothetical example.",
+    "dataKind": "example",
+    "dataNote": "The bearing strength (about 0.7 kg/cm²) is from NASA. The load and footpad area are invented educational numbers, not real lunar module data.",
+    "table": {
+      "headers": ["Item", "Value", "Type"],
+      "rows": [
+        ["Measured soil bearing strength", "≈ 0.7 kg/cm²", "Measured (NASA)"],
+        ["Hypothetical load on one footpad", "400 kg", "Educational example"],
+        ["Hypothetical footpad area", "800 cm²", "Educational example"]
+      ]
+    },
+    "task": {
+      "q": "In this example, does the pressure on the soil exceed its bearing strength?",
+      "options": ["No — the pressure is 0.5 kg/cm², less than 0.7", "Yes — the pressure is 5 kg/cm²", "It cannot be calculated"],
+      "correctIndex": 0,
+      "explanation": "Pressure = load ÷ area = 400 ÷ 800 = 0.5 kg/cm², below 0.7, so the soil holds in this example. That is why lander footpads are wide: a larger area means lower pressure."
+    },
+    "questions": [
+      {
+        "q": "Why were pictures of the Moon not enough to know how strong the soil was?",
+        "options": ["Pictures show shape but do not measure how the soil resists pressure", "The pictures were in color", "The soil is invisible"],
+        "correctIndex": 0,
+        "explanation": "Strength is a mechanical property; you need a tool that pushes and measures the response, which is what the sampler did."
+      },
+      {
+        "q": "In 1970, bacteria were reported to have been isolated from the returned camera. What is the most important question a scientist should ask before drawing any conclusion?",
+        "options": ["Could the bacteria have contaminated the camera before launch or after its return to Earth?", "What color are the bacteria?", "Does the camera still work?"],
+        "correctIndex": 0,
+        "explanation": "Before claiming something lived on the Moon, contamination at every handling step must be ruled out. The bacteria's origin is still debated, and many consider contamination likely."
+      },
+      {
+        "q": "Why were the returned parts valuable to engineers?",
+        "options": ["They show how materials changed after about two and a half years on the lunar surface", "They were made of gold", "They restarted the lander"],
+        "correctIndex": 0,
+        "explanation": "It was a rare chance to examine the effects of the lunar environment on hardware directly, which helps design equipment that lasts in space."
+      }
+    ]
+  },
+  "badge": { "name": "Soil Tester Badge", "emoji": "🥄" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a three-legged lander with an antenna and a scoop arm.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://science.nasa.gov/resource/view-of-surveyor-iii-in-its-crater/",
+  "factSources": [
+    { "title": "Surveyor 3", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/lunar-rangers-and-surveyors/surveyor-3/", "primary": true, "supports": "Launch, landing and last-contact dates; location; surface sampler; bearing strength; Apollo 12 visit and recovery of camera and scoop." },
+    { "title": "View of Surveyor III in its crater", "publisher": "NASA Science", "url": "https://science.nasa.gov/resource/view-of-surveyor-iii-in-its-crater/", "primary": true, "supports": "Real photograph of Surveyor 3 taken by the Apollo 12 crew." },
+    { "title": "Analysis of Surveyor 3 Material and Photographs Returned by Apollo 12 (NASA SP-284)", "publisher": "NASA History", "url": "https://www.nasa.gov/wp-content/uploads/static/history/alsj/a12/AnalysSurvIIIMtrial.pdf", "primary": true, "supports": "Returned parts and their study, including the report of bacteria isolated from the camera." },
+    { "title": "Test and Evaluation of the Surveyor 3 Television Camera Returned from the Moon by Apollo 12", "publisher": "NASA Technical Reports Server", "url": "https://ntrs.nasa.gov/citations/19710024418", "primary": true, "supports": "Tests of the camera that spent two and a half years on the Moon." },
+    { "title": "50 Years On, Where Are the Surveyor 3 Moon Probe Parts Retrieved by Apollo 12?", "publisher": "Space.com / collectSPACE", "url": "https://www.space.com/apollo-12-surveyor-3-parts-50-years.html", "primary": false, "supports": "Camera on loan from NASA to the National Air and Space Museum." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The interpretation of the bacteria report (possible contamination) was not checked against a primary NASA source in this review; it is presented as a reasoning question, not a final verdict.",
+    "The full list of returned parts (such as cable sections) is in SP-284 and should be reviewed in detail."
+  ]
+}

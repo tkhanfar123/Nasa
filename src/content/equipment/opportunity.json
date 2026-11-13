@@ -1,0 +1,171 @@
+{
+  "id": "opportunity",
+  "name": "Opportunity (MER-B)",
+  "mission": { "name": "Mars Exploration Rover (MER)", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)"] },
+  "equipmentType": "Solar-powered rover",
+  "illustration": "mer-rover",
+  "destinations": [
+    { "id": "mars", "encounterTypes": ["surface-landing"], "note": "Landed in Eagle crater on Meridiani Planum; fell silent on the rim of Endeavour crater." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "2003-07-07",
+  "arrivalDate": "2004-01-25",
+  "lastContactDate": "2018-06-10",
+  "missionEndDate": "2019-02-13",
+  "dateNotes": [
+    "Landing: January 25, 2004 UTC (January 24 in California time).",
+    "Last contact was June 10, 2018; the mission was declared over on February 13, 2019, after more than a thousand recovery attempts."
+  ],
+  "status": { "code": "inactive-on-surface", "text": "Silent on Mars since 2018; mission officially ended in 2019" },
+  "finalFate": "Fell silent during a planet-wide dust storm that blocked sunlight from its panels. It remains on the rim of Endeavour crater, which it had explored since 2011. Its present condition is unknown.",
+  "location": {
+    "description": "Rim of Endeavour crater on Meridiani Planum, Mars.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Microscopic Imager", "role": "Saw fine layers and tiny spheres in the rocks." },
+    { "name": "Miniature Thermal Emission Spectrometer (Mini-TES)", "role": "Mapped where hematite was around the rover." },
+    { "name": "Mössbauer spectrometer", "role": "Identified iron minerals such as hematite." },
+    { "name": "APXS & Rock Abrasion Tool", "role": "Measured elements after grinding away the outer layer." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A magnifying glass on an arm",
+      "howItWorks": "Opportunity's arm had a camera that works like a magnifying glass, taking super close-up pictures of rock grains.",
+      "knowledge": "Scientists saw the tiny 'blueberries' and understood that they formed with water."
+    },
+    "secondary": {
+      "title": "From orbit to microscope: the chain of hematite evidence",
+      "howItWorks": "Orbiters detected hematite from afar. On the surface, Mini-TES mapped where it was, the Mössbauer spectrometer identified iron minerals, and the Microscopic Imager showed the spheres' shape and position inside the layers.",
+      "knowledge": "Composition (hematite), shape (spheres embedded in rock) and context (layered sediments) together made 'concretions formed in groundwater' far stronger than any single clue."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "The rover depended on solar power, and dust and storms reduce the light reaching the panels. In 2005 it also got stuck in a sand ripple called 'Purgatory'.",
+    "solution": "The team planned driving and power day by day and freed it from the ripple after weeks of careful maneuvers. But the 2018 global storm blocked the Sun for far too long."
+  },
+  "discoveries": [
+    { "text": "The first study of intact sedimentary rocks on Mars, in Eagle crater.", "kind": "outcome" },
+    { "text": "'Blueberry' spheres up to about 5 mm across, made of hematite.", "kind": "outcome" },
+    { "text": "The spheres are iron-rich concretions that formed inside sediments soaked with groundwater.", "kind": "interpretation" },
+    { "text": "The landing site may once have been the shoreline of a salty sea.", "kind": "interpretation" }
+  ],
+  "timeline": [
+    { "date": "2003-07-07", "text": "Launch from Cape Canaveral." },
+    { "date": "2004-01-25", "text": "Lands inside Eagle crater (UTC)." },
+    { "date": "2004-03", "text": "Team announces Meridiani was once a salty-sea environment (interpretation)." },
+    { "date": "2005-04-26", "text": "Stuck in the 'Purgatory' ripple until June 4, 2005." },
+    { "date": "2011-08", "text": "Reaches the rim of Endeavour crater." },
+    { "date": "2018-06-10", "text": "Last contact during a global dust storm." },
+    { "date": "2019-02-13", "text": "NASA declares the mission complete." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Opportunity, Spirit's twin. I landed on the other side of Mars in 2004 and rolled into a small crater — a lucky hole-in-one!" },
+      { "key": "why", "text": "I was sent to look for clues of ancient water. Scientists chose my landing spot because spacecraft in orbit had seen a mineral there called hematite." },
+      { "key": "how", "text": "I ran on solar power. My arm had a magnifying camera and tools to study rocks up close." },
+      { "key": "learn", "text": "I found tiny balls that scientists nicknamed 'blueberries'. They are made of hematite and formed inside rocks that were soaked with underground water long ago." },
+      { "key": "fate", "text": "I was planned to work for 90 days, but I worked for about 15 years and drove more than 45 kilometers! Then, in 2018, a giant dust storm hid the Sun, and I went silent." }
+    ],
+    "glossary": [
+      { "term": "Mineral", "meaning": "A natural solid material that rocks are made of." },
+      { "term": "Groundwater", "meaning": "Water that moves through rocks under the surface." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Opportunity (MER-B). I launched on July 7, 2003, and landed on Meridiani Planum on January 25, 2004 (UTC), on the opposite side of Mars from my twin, Spirit. I stopped inside small Eagle crater — a 'hole-in-one'." },
+      { "key": "why", "text": "Orbiting instruments had detected gray hematite at Meridiani. The question was: did it form in water? That could not be settled from orbit; scientists needed tools that could touch the rocks and reveal their shape and context. So the site was chosen." },
+      { "key": "how", "text": "In Eagle crater I faced the first intact sedimentary rocks studied on Mars. I used the Microscopic Imager to see layers and grains, the APXS and Mössbauer spectrometers to measure elements and iron minerals, and Mini-TES to map hematite around me. I sometimes ground rocks first." },
+      { "key": "learn", "text": "The 'blueberries' were spheres up to about 5 millimeters across. The team concluded they were iron-rich concretions that grew inside sediments soaked with groundwater, and that the site may once have been the shore of a salty sea. The spheres are an observation; the 'salty sea' is an interpretation." },
+      { "key": "fate", "text": "I was planned for 90 Martian days and one kilometer; I drove 45.16 kilometers and reached Endeavour crater in 2011. In June 2018 a global dust storm blotted out the Sun, and my last signal came on June 10. NASA declared my mission over on February 13, 2019. The famous line 'my battery is low and it's getting dark' was a reporter's poetic translation of my data, not a message I sent." }
+    ],
+    "glossary": [
+      { "term": "Sedimentary rocks", "meaning": "Rocks made of grains laid down layer by layer by water or wind." },
+      { "term": "Concretions", "meaning": "Small lumps that grow inside rock when a mineral comes out of water moving through it." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each word to its meaning",
+    "instructions": "Tap a card in the first column, then tap the matching meaning.",
+    "pairs": [
+      { "left": "Hematite", "right": "A mineral scientists saw from space" },
+      { "left": "Blueberries", "right": "Tiny balls that formed with groundwater" },
+      { "left": "Solar panels", "right": "Make electricity from sunlight" },
+      { "left": "The dust storm", "right": "Blocked the Sun in 2018" }
+    ],
+    "questions": [
+      {
+        "q": "Why did scientists choose Opportunity's landing site?",
+        "options": ["Spacecraft in orbit had seen hematite there", "It was the closest place to Earth", "It was full of trees"],
+        "correctIndex": 0,
+        "explanation": "Hematite can form with water, so scientists wanted to check it up close."
+      },
+      {
+        "q": "Why did Opportunity stop working?",
+        "options": ["A dust storm blocked the Sun from its panels", "It fell into a sea", "It flew back to Earth"],
+        "correctIndex": 0,
+        "explanation": "Without sunlight, the panels make no electricity, so the rover could not talk to Earth."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Numbers from a long journey",
+    "instructions": "Study the table, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified from NASA/JPL and The Planetary Society.",
+    "table": {
+      "headers": ["Measure", "Planned", "Actual"],
+      "rows": [
+        ["Distance", "About 1 km", "45.16 km"],
+        ["Operating time", "90 sols", "At least 5,111 sols"]
+      ]
+    },
+    "task": {
+      "q": "About how many times farther than planned did Opportunity drive?",
+      "options": ["About 4.5 times", "About 45 times", "About 450 times", "The same distance"],
+      "correctIndex": 1,
+      "explanation": "45.16 ÷ 1 ≈ 45 times. Its lifetime exceeded the plan by about 57 times (5,111 ÷ 90)."
+    },
+    "questions": [
+      {
+        "q": "Why wasn't detecting hematite from orbit enough to prove ancient water?",
+        "options": ["Hematite can form in different ways; its shape and context needed a close look", "Hematite can't be seen from space", "Orbit is far from the Sun"],
+        "correctIndex": 0,
+        "explanation": "A mineral alone doesn't tell the whole story. The spheres and their position inside the layers added decisive evidence."
+      },
+      {
+        "q": "Which statement is an interpretation, not an observation?",
+        "options": ["The spheres are up to about 5 mm across", "The site was possibly the shore of a salty sea", "The rover drove 45.16 km"],
+        "correctIndex": 1,
+        "explanation": "Diameter and distance are measurements. The 'salty sea' is a reconstruction of an ancient environment based on several lines of evidence."
+      },
+      {
+        "q": "What is the main weakness of relying on solar power on Mars?",
+        "options": ["Dust and storms can reduce the light for a long time", "The Sun never shines on Mars", "Panels are too heavy for the wheels"],
+        "correctIndex": 0,
+        "explanation": "Solar power is light and simple, but it depends on sunlight; engineers weigh this trade-off when choosing a power source for any mission."
+      }
+    ]
+  },
+  "badge": { "name": "Blueberry Collector Badge", "emoji": "🫐" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a six-wheeled rover with solar panels and a camera mast.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/",
+  "factSources": [
+    { "title": "NASA's Opportunity Rover Mission on Mars Comes to End", "publisher": "NASA Jet Propulsion Laboratory", "url": "https://www.jpl.nasa.gov/news/nasas-opportunity-rover-mission-on-mars-comes-to-end/", "primary": true, "supports": "Last contact June 10, 2018; mission end February 13, 2019, after 15 years." },
+    { "title": "Mars rovers (archived NASA Science page)", "publisher": "NASA Science (UNT web archive)", "url": "https://webarchive.library.unt.edu/web/20201219070427/https://science.nasa.gov/missions/mars-rovers", "primary": true, "supports": "Landing Jan. 25, 2004; 'hole-in-one'; spheres up to 5 mm; concretions formed in groundwater-soaked deposits; salty-sea shoreline." },
+    { "title": "This Month in NASA History: Opportunity's Hole-in-One", "publisher": "NASA APPEL", "url": "https://appel.nasa.gov/2024/01/11/this-month-in-nasa-history-opportunitys-hole-in-one", "primary": true, "supports": "'Blueberries' made of hematite; June 2018 storm." },
+    { "title": "Overview of the Opportunity MER Mission to Meridiani Planum (Squyres et al., 2006, JGR)", "publisher": "Journal of Geophysical Research", "url": "https://repository.si.edu/server/api/core/bitstreams/d0226d7d-82e9-4d94-bdd5-edb7a77707ed/content", "primary": true, "supports": "UTC landing time; first study of sedimentary rocks; blueberry concretions." },
+    { "title": "Mars Exploration Rovers", "publisher": "The Planetary Society", "url": "https://www.planetary.org/space-missions/mars-exploration-rovers", "primary": false, "supports": "45.16 km; 5,111 sols; stuck at Purgatory; reached Endeavour in 2011." },
+    { "title": "Opportunity's final words (on the widely shared quote)", "publisher": "Reporter Magazine (RIT)", "url": "https://reporter.rit.edu/?p=6157", "primary": false, "supports": "The famous line was a reporter's translation of the rover's data, not an actual message." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "Coordinates of the final resting place were not verified from a primary source and are left empty.",
+    "The planned 1 km distance appears in media reports citing NASA; it should be checked against NASA's mission page."
+  ]
+}

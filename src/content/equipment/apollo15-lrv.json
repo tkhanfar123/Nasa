@@ -1,0 +1,170 @@
+{
+  "id": "apollo15-lrv",
+  "name": "Apollo 15 Lunar Roving Vehicle (LRV-1)",
+  "mission": { "name": "Apollo 15", "partners": ["NASA"] },
+  "equipmentType": "Crewed lunar rover",
+  "illustration": "lunar-rover",
+  "destinations": [
+    { "id": "moon", "encounterTypes": ["surface-landing"], "note": "Arrived folded on the side of the lunar module Falcon and stayed on the surface." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "1971-07-26",
+  "arrivalDate": "1971-07-30",
+  "lastContactDate": null,
+  "missionEndDate": "1971-08-07",
+  "dateNotes": [
+    "The mission end date is the Apollo 15 crew's splashdown in the Pacific Ocean, not the day the rover itself stopped working.",
+    "We found no documented date for the last signal from the rover's TV camera after liftoff, so that field is left empty."
+  ],
+  "status": { "code": "left-on-surface", "text": "Left on the Moon since 1971; no longer in use" },
+  "finalFate": "Parked near the descent stage of the lunar module Falcon at Hadley–Apennine. Images from NASA's Lunar Reconnaissance Orbiter show its final parking spot and wheel tracks, but those images cannot tell us the condition of every part.",
+  "location": {
+    "description": "Hadley–Apennine region of the Moon, a short distance from Falcon's descent stage (NASA sources give two different distances: about 300 feet and about 500 feet).",
+    "coordinates": { "lat": 26.08, "lon": 3.66, "kind": "Apollo 15 landing site (not the exact rover position)" }
+  },
+  "instruments": [
+    { "name": "Remote-controlled color TV camera", "role": "Sent pictures of the exploration and broadcast Falcon's liftoff live for the first time." },
+    { "name": "Lunar Communications Relay Unit (LCRU)", "role": "Linked the astronauts and the camera to Earth while they were far from the lunar module." },
+    { "name": "Wheels, batteries and steering", "role": "Gave the astronauts far more range than walking." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A camera driven from Earth",
+      "howItWorks": "The rover carried a TV camera. The astronauts did not aim it; engineers in Mission Control moved it from Earth.",
+      "knowledge": "Thanks to it, people on Earth watched a spacecraft lift off from the Moon live for the first time."
+    },
+    "secondary": {
+      "title": "From wheels to samples: how range creates science",
+      "howItWorks": "The rover was electric and battery-powered, steered with a hand controller, and carried a communications unit and a color TV camera operated remotely by flight controllers.",
+      "knowledge": "Range of 27.9 km over three drives let the crew sample varied geological sites near Hadley Rille and the mountain front, including the 'Genesis Rock'. The more varied the sample sites, the better scientists can test models of lunar history."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "The rover had to fold up to ride on the side of the lunar module, and on the first excursion its front-wheel steering did not work.",
+    "solution": "The crew drove using rear-wheel steering alone, which the mission rules allowed; front steering worked again the next day."
+  },
+  "discoveries": [
+    { "text": "The crew drove 27.9 km in three excursions lasting about 18 hours 35 minutes in total.", "kind": "outcome" },
+    { "text": "About 77 kg of samples were collected, including sample 15415, the 'Genesis Rock', made of anorthosite.", "kind": "outcome" },
+    { "text": "The Genesis Rock was at first believed to be part of the Moon's original crust; this scientific interpretation was later studied and revised.", "kind": "interpretation" },
+    { "text": "The rover's camera broadcast a lunar liftoff live to Earth for the first time.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1971-07-26", "text": "Apollo 15 launches from Kennedy Space Center." },
+    { "date": "1971-07-30", "text": "Falcon lands at Hadley–Apennine." },
+    { "date": "1971-07-31", "text": "The rover is deployed and driven on the Moon for the first time." },
+    { "date": "1971-08-02", "text": "Falcon lifts off from the Moon; the rover's camera broadcasts it live." },
+    { "date": "1971-08-07", "text": "The crew splashes down in the Pacific; the rover stays on the Moon." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am the Lunar Roving Vehicle, a light electric car with four wheels. I traveled to the Moon in 1971, folded up on the side of the lunar module Falcon." },
+      { "key": "why", "text": "I was sent to carry astronauts David Scott and James Irwin far from their lander, so they could see more places and collect more rocks." },
+      { "key": "how", "text": "I ran on batteries, and the astronauts drove me with a hand controller. I also carried a TV camera that engineers on Earth could move." },
+      { "key": "learn", "text": "Together we drove about 28 kilometers. The astronauts collected many rocks, including the 'Genesis Rock', which helped scientists study the Moon's ancient crust." },
+      { "key": "fate", "text": "When the astronauts left, my camera filmed their liftoff. Then I stayed behind on the Moon. Space pictures still show where I parked." }
+    ],
+    "glossary": [
+      { "term": "Lunar module", "meaning": "The spacecraft that carried the two astronauts down to the Moon's surface and back up." },
+      { "term": "Crust", "meaning": "The hard outer layer of the Moon." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am LRV-1, the first lunar rover ever driven by humans. I launched with Apollo 15 on July 26, 1971, folded against the side of the lunar module Falcon. Apollo 15 was the first of the 'J missions', designed for longer stays and a stronger focus on science." },
+      { "key": "why", "text": "On earlier missions astronauts walked, so they never went far from the lander. NASA wanted a geological survey of Hadley–Apennine, where Hadley Rille meets the Apennine Mountains. That required more range, less travel time, and room to carry tools and samples." },
+      { "key": "how", "text": "I ran on batteries and was steered with a hand controller. I carried a communications unit and a color TV camera that flight controllers operated from Earth. On the first excursion my front steering failed, so the crew drove with rear steering alone; the front steering worked again the next day." },
+      { "key": "learn", "text": "In three drives lasting about eighteen and a half hours we covered 27.9 kilometers, and the crew collected about 77 kilograms of samples. One was sample 15415, the 'Genesis Rock', made of anorthosite. Scientists first thought it came from the Moon's original crust; that interpretation was later revised." },
+      { "key": "fate", "text": "On August 2, 1971, my camera sent Falcon's liftoff live to Earth for the first time. Then I stayed on the Moon near the descent stage. Lunar Reconnaissance Orbiter images show my final parking spot and wheel tracks, but they cannot reveal the condition of all my parts." }
+    ],
+    "glossary": [
+      { "term": "J missions", "meaning": "The last three Apollo missions, built for longer stays and more science, each with a rover." },
+      { "term": "Anorthosite", "meaning": "A light-colored rock made mostly of the mineral plagioclase; it forms the Moon's highlands." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "sequencing",
+    "title": "Put my journey in order!",
+    "instructions": "Put the events in order from first to last using the ▲ and ▼ buttons, then press “Check”.",
+    "items": [
+      "The rocket launches from Earth",
+      "Falcon lands on the Moon",
+      "Driving and collecting rocks",
+      "Filming the liftoff and staying on the Moon"
+    ],
+    "questions": [
+      {
+        "q": "Why was the rover sent to the Moon?",
+        "options": ["To carry the astronauts farther so they could collect more rocks", "To bring the astronauts back to Earth", "To fly above the Moon"],
+        "correctIndex": 0,
+        "explanation": "Walking is slow and tiring. With the rover, the astronauts went farther, saw more places and collected more rocks."
+      },
+      {
+        "q": "What happened to the rover after the astronauts left?",
+        "options": ["It came back to Earth with them", "It stayed on the Moon", "It drove to Mars"],
+        "correctIndex": 1,
+        "explanation": "The rover never came home. It stayed on the Moon near the landing site."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Data check: how fast was it really?",
+    "instructions": "Study the simplified data, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified from the Apollo 15 mission overview in NASA's Planetary Data System (PDS).",
+    "table": {
+      "headers": ["Measure", "Value"],
+      "rows": [
+        ["Number of rover excursions", "3"],
+        ["Total distance", "27.9 km"],
+        ["Total excursion time (including stops)", "18 h 35 min"]
+      ]
+    },
+    "task": {
+      "q": "What was the approximate overall average speed, including stops to collect samples?",
+      "options": ["About 1.5 km/h", "About 15 km/h", "About 28 km/h", "About 0.1 km/h"],
+      "correctIndex": 0,
+      "explanation": "27.9 ÷ 18.6 ≈ 1.5 km/h. It is low because the time includes long stops for geology work; an excursion average is not the driving speed."
+    },
+    "questions": [
+      {
+        "q": "When the front steering failed, why was continuing with rear steering a reasonable decision?",
+        "options": ["Rear steering alone still gave enough control, and the mission rules allowed it", "The rover did not need steering at all", "The crew had decided to cancel the excursion"],
+        "correctIndex": 0,
+        "explanation": "Having a second working steering system is an example of redundancy: one failure does not stop the mission."
+      },
+      {
+        "q": "'The Genesis Rock was thought to be part of the Moon's original crust.' This statement is…",
+        "options": ["A direct observation that cannot change", "A scientific interpretation that can be revised with new evidence", "A rumor with no basis"],
+        "correctIndex": 1,
+        "explanation": "Collecting the rock is a fixed mission outcome; its age and origin are interpretations based on analysis, and they can change as evidence improves."
+      },
+      {
+        "q": "What is the scientific benefit of a camera controlled from Earth?",
+        "options": ["It adds extra eyes without using up the astronauts' time", "It removes the need to collect samples", "It makes the rover faster"],
+        "correctIndex": 0,
+        "explanation": "Astronaut time on the surface is precious. Remote control let the ground team film and document, including the liftoff while the crew was inside Falcon."
+      }
+    ]
+  },
+  "badge": { "name": "Hadley Driver Badge", "emoji": "🚙" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a four-wheeled lunar rover with two seats and an umbrella-shaped antenna.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://www.nasa.gov/history/apollo-15-mission-details/",
+  "factSources": [
+    { "title": "Apollo 15: Mission Details", "publisher": "NASA History", "url": "https://www.nasa.gov/history/apollo-15-mission-details/", "primary": true, "supports": "Mission objectives, landing site, liftoff broadcast through the rover's TV camera." },
+    { "title": "Apollo 15 Mission Details (landing coordinates, splashdown)", "publisher": "NASA", "url": "https://www.nasa.gov/missions/apollo/apollo-15-mission-details/", "primary": true, "supports": "Landing coordinates 26.08°N, 3.66°E; splashdown on August 7, 1971." },
+    { "title": "Apollo 15 Mission Overview (PDS soil mechanics archive)", "publisher": "NASA Planetary Data System", "url": "https://pds-geosciences.wustl.edu/Lunar/urn-nasa-pds-a15lsrp_soil_mechanics/document/a15_mission.txt", "primary": true, "supports": "Three rover excursions, 18 h 35 min, 27.9 km." },
+    { "title": "50 Years Ago: Apollo 15 Heads Home to Earth", "publisher": "NASA History", "url": "https://www.nasa.gov/history/50-years-ago-apollo-15-heads-home-to-earth", "primary": true, "supports": "Liftoff broadcast by the rover camera parked about 500 feet away." },
+    { "title": "Apollo 15 Astronauts Deploy First Lunar Roving Vehicle", "publisher": "NASA", "url": "https://www.nasa.gov/?p=423851", "primary": true, "supports": "First rover deployment; steering problem fixed the following day." },
+    { "title": "Apollo 15: A Mission of Many Firsts", "publisher": "LROC — Arizona State University (NASA LRO)", "url": "https://www.lroc.asu.edu/images/1198", "primary": true, "supports": "Orbital images of the rover's final parking spot; Genesis Rock first believed to be primordial crust." },
+    { "title": "First Car on the Moon", "publisher": "Air & Space Magazine (Smithsonian)", "url": "https://www.airspacemag.com/space/first-car-moon-180977805", "primary": false, "supports": "Driving with rear steering only when front steering failed." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The July 26, 1971 launch date is from NASA History pages; the PDS document contains a typo ('6 July').",
+    "The sample mass (about 77 kg) comes from secondary sources; it should be checked against NASA's Apollo 15 Preliminary Science Report (SP-289)."
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "id": "sojourner",
+  "name": "Sojourner (Mars Pathfinder rover)",
+  "mission": { "name": "Mars Pathfinder", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)"] },
+  "equipmentType": "Small technology-demonstration rover",
+  "illustration": "small-rover",
+  "destinations": [
+    { "id": "mars", "encounterTypes": ["surface-landing"], "note": "Landed with the Pathfinder lander inside airbags in Ares Vallis." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "1996-12-04",
+  "arrivalDate": "1997-07-04",
+  "lastContactDate": "1997-09-27",
+  "missionEndDate": null,
+  "dateNotes": [
+    "September 27, 1997 is the last successful data transmission from the lander, which Sojourner relied on to reach Earth. Other sources mention a final signal on October 7, 1997.",
+    "Mission end: secondary sources give a farewell announcement on November 4, 1997 and a formal end on March 10, 1998. We could not confirm the date on NASA's page, so the field is empty."
+  ],
+  "status": { "code": "inactive-on-surface", "text": "Silent on the surface of Mars since 1997" },
+  "finalFate": "Sojourner remained on the surface near the lander in Ares Vallis. Its present condition is unknown, and it cannot be assumed to be intact.",
+  "location": {
+    "description": "Ares Vallis in the Chryse Planitia region of Mars, near the Pathfinder lander.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Alpha Proton X-ray Spectrometer (APXS)", "role": "Identified the chemical elements in rocks and soil." },
+    { "name": "Rover cameras (two front, one rear)", "role": "For driving and close-up pictures of rocks." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A tool that knows what a rock is made of",
+      "howItWorks": "Sojourner held a small instrument against a rock for hours. It measured the rays bouncing back from the rock.",
+      "knowledge": "Scientists learned that the rocks there were not all the same."
+    },
+    "secondary": {
+      "title": "The APXS: how do you measure a rock's elements?",
+      "howItWorks": "A small radioactive source bombards the rock surface with alpha particles; the instrument then measures the energies of returning X-rays, protons and alpha particles. Each element has a characteristic energy signature, so relative abundances can be calculated.",
+      "knowledge": "The spectrometer measures only the surface it touches, so dust stuck to a rock can change the reading — as happened with the rock 'Yogi'."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "Land on Mars cheaply without a complex landing system, and run a very small rover on limited power.",
+    "solution": "Airbags that inflated seconds before impact, letting the lander bounce and settle, and having Sojourner talk to Earth through the lander instead of carrying its own Earth radio."
+  },
+  "discoveries": [
+    { "text": "The APXS reading of the rock 'Barnacle Bill' showed more silica than the expected basalt, closer to andesite.", "kind": "outcome" },
+    { "text": "The first reading of 'Yogi' looked basalt-like, but after correcting for dust its composition was close to Barnacle Bill's.", "kind": "interpretation" },
+    { "text": "Images are consistent with Ares Vallis having been the site of a massive flood roughly one to three billion years ago.", "kind": "interpretation" },
+    { "text": "The mission proved a small rover can work and move on Mars, and that airbag landings are possible.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1996-12-04", "text": "Launch from Cape Canaveral." },
+    { "date": "1997-07-04", "text": "Pathfinder lands with airbags in Ares Vallis." },
+    { "date": "1997-07-06", "text": "Sojourner rolls down the ramp onto Mars (U.S. time)." },
+    { "date": "1997-09-27", "text": "Last data transmission from the lander; Sojourner loses its link to Earth." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Sojourner, a small rover about the size of a microwave oven. I reached Mars in 1997 with the Pathfinder lander." },
+      { "key": "why", "text": "I was sent to test a new idea: can a little cart drive around on Mars and check its rocks?" },
+      { "key": "how", "text": "We landed inside big airbags that bounced on the ground like a ball. Then I rolled down a ramp, moved on six wheels, and sent my pictures through the lander." },
+      { "key": "learn", "text": "My special tool showed what rocks were made of. They were different from each other, and the place may once have had a huge flood." },
+      { "key": "fate", "text": "I was planned to work for one week, but I worked for almost three months! Then the lander stopped talking, so I went quiet too. I am still there on Mars." }
+    ],
+    "glossary": [
+      { "term": "Airbags", "meaning": "Big bags full of gas that protect a spacecraft when it hits the ground." },
+      { "term": "Flood", "meaning": "A huge amount of water covering and rushing over the land." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Sojourner, a six-wheeled rover of about 11 kilograms, part of Mars Pathfinder in NASA's low-cost Discovery program. We launched on December 4, 1996, and landed on July 4, 1997, in Ares Vallis. The lander was later named the Carl Sagan Memorial Station." },
+      { "key": "why", "text": "My main job was technical: prove that a small rover could drive and work on Mars. Science was a bonus — analyzing rocks on a plain thought to be shaped by ancient floods. Ares Vallis was chosen because it was fairly safe for landing and full of varied rocks." },
+      { "key": "how", "text": "Airbags inflated seconds before impact, so the lander bounced across the surface and then came to rest. I did not talk to Earth directly; I sent my data to the lander, which relayed it. That design saved mass and power, but it tied my fate to the lander's." },
+      { "key": "learn", "text": "I placed my APXS on rocks to measure their elements. 'Barnacle Bill' looked richer in silica than the expected basalt. 'Yogi' looked different, but dust stuck to it affected the reading; once corrected, it was closer to Barnacle Bill. The lesson: understand your sources of error before interpreting." },
+      { "key": "fate", "text": "I was planned for seven Martian days; I worked for 83 and drove about 100 meters. The lander's last data arrived on September 27, 1997, and my link to Earth was gone. I stayed near the lander, and nobody knows my condition today." }
+    ],
+    "glossary": [
+      { "term": "Sol", "meaning": "A Martian day, slightly longer than an Earth day (about 24 hours 37 minutes)." },
+      { "term": "Silica", "meaning": "Silicon dioxide, a main ingredient of many rocks and of sand." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each thing to its job",
+    "instructions": "Tap a card in the first column, then tap the job that goes with it.",
+    "pairs": [
+      { "left": "The airbags", "right": "Protected the spacecraft when landing" },
+      { "left": "The six wheels", "right": "Moved Sojourner between rocks" },
+      { "left": "The rock-checking tool", "right": "Found out what a rock is made of" },
+      { "left": "The lander", "right": "Sent Sojourner's messages to Earth" }
+    ],
+    "questions": [
+      {
+        "q": "How long was Sojourner planned to work?",
+        "options": ["One day", "One week", "Ten years"],
+        "correctIndex": 1,
+        "explanation": "It was planned for one week, but it worked for almost three months. Great remembering!"
+      },
+      {
+        "q": "How did Sojourner's messages reach Earth?",
+        "options": ["Through the lander", "By mail", "Directly through a big antenna on the rover"],
+        "correctIndex": 0,
+        "explanation": "Sojourner was small, so it sent messages to the lander, and the lander sent them to Earth."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Dust on a rock: how does it change the reading?",
+    "instructions": "Study the simplified summary of APXS readings, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "A simplified qualitative summary of Mars Pathfinder preliminary results from NASA's NSSDC archive. Detailed numbers are not shown here.",
+    "table": {
+      "headers": ["Rock", "First reading", "After dust correction"],
+      "rows": [
+        ["Barnacle Bill", "Silica-rich, closer to andesite", "—"],
+        ["Yogi", "Looks different, closer to basalt", "Close to Barnacle Bill's composition"],
+        ["Soil", "Close to Viking landing-site soils, with differences", "—"]
+      ]
+    },
+    "task": {
+      "q": "Why did the interpretation of 'Yogi' change?",
+      "options": ["The measurement included dust stuck to its surface; removing that effect changed the result", "The rock moved", "The instrument broke permanently"],
+      "correctIndex": 0,
+      "explanation": "The spectrometer measures the layer it touches. If dust covers it, the reading is a mix of rock and dust, so scientists corrected it with a mixing model before interpreting."
+    },
+    "questions": [
+      {
+        "q": "What was the engineering trade-off of relaying Sojourner's data through the lander?",
+        "options": ["Saving mass and power in exchange for total dependence on the lander", "More speed in exchange for fewer cameras", "There was no trade-off"],
+        "correctIndex": 0,
+        "explanation": "A smart choice for a tiny rover — but when the lander stopped, Sojourner fell silent too."
+      },
+      {
+        "q": "What did the airbags do?",
+        "options": ["Absorb the shock of hitting the surface", "Generate electricity", "Cool the spacecraft"],
+        "correctIndex": 0,
+        "explanation": "The lander bounced inside the airbags several times before stopping, which protected it from the impact."
+      },
+      {
+        "q": "'Ares Vallis was the site of a massive ancient flood.' This statement is…",
+        "options": ["An interpretation based on images and comparison with earlier data", "A direct measurement of flowing water today", "Information from a message Sojourner sent"],
+        "correctIndex": 0,
+        "explanation": "No flowing water was observed; the landforms and rocks are consistent with an ancient flood, which is an interpretation."
+      }
+    ]
+  },
+  "badge": { "name": "Little Pioneer Badge", "emoji": "🛞" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a small six-wheeled rover with a flat solar panel.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://photojournal.jpl.nasa.gov/catalog/PIA00766",
+  "factSources": [
+    { "title": "Mars Pathfinder Preliminary Results", "publisher": "NASA Space Science Data Coordinated Archive (NSSDC)", "url": "https://nssdc.gsfc.nasa.gov/planetary/marspath_results.html", "primary": true, "supports": "APXS results for Barnacle Bill and Yogi and the dust correction; ancient flood interpretation; soil comparison with Viking." },
+    { "title": "PIA00766: Sojourner & \"Yogi\"", "publisher": "NASA/JPL Photojournal", "url": "https://photojournal.jpl.nasa.gov/catalog/PIA00766", "primary": true, "supports": "Real image of Sojourner placing the APXS on Yogi." },
+    { "title": "Airbag Roll Marks & Displaced Rocks and Soil", "publisher": "NASA Science", "url": "https://science.nasa.gov/?p=337013", "primary": true, "supports": "Lander rolling in its airbags; Pathfinder as part of the Discovery program." },
+    { "title": "Mars Pathfinder fact sheet (archived)", "publisher": "NASA/JPL (UNT web archive)", "url": "https://webarchive.library.unt.edu/web/20090813031850/http:/jpl.nasa.gov/news/fact_sheets/mpf.pdf", "primary": true, "supports": "APXS placed on soil for overnight measurements." },
+    { "title": "Sojourner: The first successful Mars rover", "publisher": "Space.com", "url": "https://www.space.com/17745-mars-pathfinder-sojourner-rover.html", "primary": false, "supports": "About 100 m driven over 83 days; airbags inflating seconds before landing; choice of Ares Vallis." },
+    { "title": "Mars mission ends with whimper", "publisher": "The Spokesman-Review (AP), 1997", "url": "https://www.spokesman.com/stories/1997/nov/05/mars-mission-ends-with-whimper-brave-little/", "primary": false, "supports": "Date sequence: rover rolls out July 6, last data Sept. 27, last contact Oct. 7, 1997." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "We could not open NASA Science's Mars Pathfinder page during the review; some dates rely on the NSSDC archive and secondary sources.",
+    "Mass differs between sources (10.5–11.5 kg); the story says 'about 11 kg'."
+  ]
+}

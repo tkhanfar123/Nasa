@@ -1,0 +1,172 @@
+{
+  "id": "spirit",
+  "name": "Spirit (MER-A)",
+  "mission": { "name": "Mars Exploration Rover (MER)", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)"] },
+  "equipmentType": "Solar-powered rover",
+  "illustration": "mer-rover",
+  "destinations": [
+    { "id": "mars", "encounterTypes": ["surface-landing"], "note": "Landed in Gusev crater; came to rest at a site called 'Troy' west of Home Plate." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "2003-06-10",
+  "arrivalDate": "2004-01-04",
+  "lastContactDate": "2010-03-22",
+  "missionEndDate": "2011-05-25",
+  "dateNotes": [
+    "Landing: January 4, 2004 UTC (January 3 in California time, as on NASA's page).",
+    "Last contact: March 22, 2010. Recovery efforts officially ended: May 25, 2011. These are two different events."
+  ],
+  "status": { "code": "inactive-on-surface", "text": "Silent on Mars since 2010; mission officially ended in 2011" },
+  "finalFate": "Spirit got stuck in soft soil in 2009 near Home Plate, became a stationary science platform, and fell silent before its fourth Martian winter. It remains at 'Troy'; its present condition is unknown.",
+  "location": {
+    "description": "Gusev crater on Mars; final site 'Troy' on the western side of Home Plate.",
+    "coordinates": { "lat": -14.5692, "lon": 175.4729, "kind": "Landing site, Columbia Memorial Station (not the final resting place)" }
+  },
+  "instruments": [
+    { "name": "Panoramic Camera (Pancam)", "role": "High-resolution color images of the landscape." },
+    { "name": "Miniature Thermal Emission Spectrometer (Mini-TES)", "role": "Identified minerals from a distance using infrared light." },
+    { "name": "Rock Abrasion Tool (RAT)", "role": "Ground away the outer layer to look inside rocks." },
+    { "name": "APXS & Mössbauer spectrometers", "role": "Measured elements and iron-bearing minerals." },
+    { "name": "Microscopic Imager", "role": "Extreme close-ups of rock grains." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A grinder that scratches rocks",
+      "howItWorks": "Spirit's arm had a spinning tool that ground a rock's surface like a file, removing dust and the outer layer.",
+      "knowledge": "Scientists could see inside rocks, and learned that water had changed some of them long ago."
+    },
+    "secondary": {
+      "title": "Why grind before you measure?",
+      "howItWorks": "The Rock Abrasion Tool removes a few millimeters of dusty, weathered surface; then the APXS and Mössbauer spectrometers measure the exposed rock and the Microscopic Imager photographs it.",
+      "knowledge": "Measuring only the outside may reflect dust and weathering rather than the original rock. Comparing measurements before and after grinding revealed how water and time altered rocks in the Columbia Hills."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "In 2009 the rover became stuck in soft soil, and as winter approached, less sunlight reached its panels.",
+    "solution": "After long attempts to free it, the team turned it into a stationary science platform that kept measuring from where it sat — but its panels were not tilted enough toward the Sun for its fourth winter."
+  },
+  "discoveries": [
+    { "text": "Rocks in the Columbia Hills showing alteration by water (2004).", "kind": "outcome" },
+    { "text": "Movies of dust devils in motion (2005).", "kind": "outcome" },
+    { "text": "Soil at 'Tyrone' very rich in sulfur with a trace of water (2006).", "kind": "outcome" },
+    { "text": "Nearly pure silica soil, nicknamed 'Gertrude Weise' (2007).", "kind": "outcome" },
+    { "text": "The silica is interpreted as a sign of ancient hydrothermal activity such as hot springs or steam vents — a wetter ancient Mars.", "kind": "interpretation" }
+  ],
+  "timeline": [
+    { "date": "2003-06-10", "text": "Launch from Cape Canaveral." },
+    { "date": "2004-01-04", "text": "Landing in Gusev crater (UTC)." },
+    { "date": "2007", "text": "Discovery of the nearly pure silica soil." },
+    { "date": "2009-05-01", "text": "Stuck in soft soil beside the western edge of Home Plate." },
+    { "date": "2010-01", "text": "Spirit becomes a stationary science platform." },
+    { "date": "2010-03-22", "text": "Last contact from Spirit." },
+    { "date": "2011-05-25", "text": "NASA officially ends efforts to contact it." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Spirit, a rover with six wheels and solar panels. I landed on Mars in January 2004, inside a big crater called Gusev." },
+      { "key": "why", "text": "My twin, Opportunity, and I were sent to look for signs that water existed on Mars long ago." },
+      { "key": "how", "text": "I had cameras on a tall mast, like a neck, and an arm with tools that checked rocks and scratched their surface to see inside." },
+      { "key": "learn", "text": "I found soil made of almost pure silica. Scientists think it may have formed near ancient hot springs — a place with hot water." },
+      { "key": "fate", "text": "I was planned to work for 90 Martian days, but I worked for more than six years! Then I got stuck in soft soil, and a winter with little sunshine came. My last message was in 2010." }
+    ],
+    "glossary": [
+      { "term": "Crater", "meaning": "A big round hole made when a space rock crashed into the ground." },
+      { "term": "Mast", "meaning": "A tall pole that lifts cameras up so they can see far." },
+      { "term": "Silica", "meaning": "A material like the main ingredient of glass and sand." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Spirit (MER-A), one of the two Mars Exploration Rovers. I launched on June 10, 2003, and landed in Gusev crater in January 2004, about 13 kilometers from the planned target. My landing site was named Columbia Memorial Station." },
+      { "key": "why", "text": "Our goal was to read the geological record at two sites on Mars and judge whether past environments could have been suitable for life. My primary mission was planned to last 90 Martian days." },
+      { "key": "how", "text": "My mast carried a panoramic camera and a thermal spectrometer (Mini-TES) that identifies minerals from a distance. My arm held the Rock Abrasion Tool, an APXS, a Mössbauer spectrometer and a microscopic imager. We ground off dusty outer layers to measure less-weathered rock." },
+      { "key": "learn", "text": "In the Columbia Hills I found rocks altered by water. In 2007, one of my broken front wheels, dragging behind me, churned up soil that was almost pure silica. The observation: extremely high silica. The most likely interpretation: ancient hydrothermal activity, such as hot springs or steam vents." },
+      { "key": "fate", "text": "On May 1, 2009, I got stuck in soft soil near Home Plate. After long attempts, the team made me a stationary science platform in January 2010. My panels were not tilted enough toward the Sun for my fourth winter, so my last message came on March 22, 2010. NASA ended contact efforts on May 25, 2011. In all, I drove 7.73 kilometers." }
+    ],
+    "glossary": [
+      { "term": "Weathering", "meaning": "The slow change of rocks caused by wind, water and temperature." },
+      { "term": "Hydrothermal", "meaning": "Involving hot water moving through rocks, as in hot springs." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "sequencing",
+    "title": "Put Spirit's adventure in order",
+    "instructions": "Order the events from oldest to newest with ▲ and ▼, then press “Check”.",
+    "items": [
+      "Launch from Earth (2003)",
+      "Landing in Gusev crater (2004)",
+      "Finding the silica soil (2007)",
+      "Getting stuck in soft soil (2009)",
+      "Last message to Earth (2010)"
+    ],
+    "questions": [
+      {
+        "q": "What was Spirit looking for?",
+        "options": ["Signs of ancient water", "Oil", "Astronauts"],
+        "correctIndex": 0,
+        "explanation": "Water matters because life as we know it needs it, so scientists search for its traces."
+      },
+      {
+        "q": "Why does Spirit need sunlight?",
+        "options": ["Its solar panels turn sunlight into electricity", "Only to warm its wheels", "It doesn't need it"],
+        "correctIndex": 0,
+        "explanation": "Solar panels turn light into electricity. In winter there is less light, so there is less electricity."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Planned versus actual",
+    "instructions": "Compare the planned and actual mission lifetime, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified from NASA's Spirit page and the end-of-mission report on NASA's Technical Reports Server.",
+    "table": {
+      "headers": ["Measure", "Planned", "Actual"],
+      "rows": [
+        ["Operating time", "90 sols", "About 2,210 sols (to last contact)"],
+        ["Distance driven", "—", "7.73 km"]
+      ]
+    },
+    "task": {
+      "q": "About how many times longer than planned did Spirit operate?",
+      "options": ["About 2.5 times", "About 25 times", "About 250 times", "It did not exceed the plan"],
+      "correctIndex": 1,
+      "explanation": "2,210 ÷ 90 ≈ 24.6, or about 25 times. That is why NASA extended the mission many times."
+    },
+    "questions": [
+      {
+        "q": "Why does tilting solar panels toward the Sun matter in winter?",
+        "options": ["The Sun is low, so panels tilted toward it collect more energy", "Tilting makes the rover drive faster", "It doesn't matter at all"],
+        "correctIndex": 0,
+        "explanation": "Once Spirit was stuck, it could no longer be repositioned to improve its tilt, so winter power dropped."
+      },
+      {
+        "q": "Which statement is an interpretation rather than an observation?",
+        "options": ["The soil contains extremely high silica", "The silica formed through ancient hydrothermal activity", "Spirit drove 7.73 km"],
+        "correctIndex": 1,
+        "explanation": "Measuring silica is an observation. Explaining how it formed is an interpretation, based on comparison with Earth, that can be tested and revised."
+      },
+      {
+        "q": "What was the advantage of turning Spirit into a stationary platform instead of ending the mission?",
+        "options": ["Continuing to gather science from its location despite losing mobility", "Repairing the wheels automatically", "Saving fuel"],
+        "correctIndex": 0,
+        "explanation": "An engineering decision that makes use of working instruments even when the original goal can no longer be achieved."
+      }
+    ]
+  },
+  "badge": { "name": "Silica Hunter Badge", "emoji": "💎" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a six-wheeled rover with solar panels and a camera mast.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://science.nasa.gov/mission/mer-spirit/",
+  "factSources": [
+    { "title": "Spirit", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/mer-spirit/", "primary": true, "supports": "Key dates, location and coordinates, distance, discoveries, instruments, end of efforts on May 25, 2011." },
+    { "title": "Mars Exploration Rover Spirit End of Mission Report", "publisher": "NASA Technical Reports Server", "url": "https://ntrs.nasa.gov/citations/20160001767", "primary": true, "supports": "Landing Jan. 4, 2004; 90-sol prime mission; last contact on sol 2210 (Mar. 22, 2010); effect of the fourth winter." },
+    { "title": "Spirit mission page (stationary platform)", "publisher": "NASA Science", "url": "https://science.nasa.gov/missions/mars-exploration-rover-spirit", "primary": true, "supports": "Mission reformulated as a stationary science platform in January 2010." },
+    { "title": "Mars Exploration Rovers", "publisher": "The Planetary Society", "url": "https://www.planetary.org/space-missions/mars-exploration-rovers", "primary": false, "supports": "7.73 km and 2,210 sols." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The detail that a dragging broken front wheel exposed the silica soil was not on the page we reviewed; it is documented in 2007 JPL press releases and should be linked to them."
+  ]
+}

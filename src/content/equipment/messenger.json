@@ -1,0 +1,173 @@
+{
+  "id": "messenger",
+  "name": "MESSENGER",
+  "mission": { "name": "MESSENGER (MErcury Surface, Space ENvironment, GEochemistry, and Ranging)", "partners": ["NASA", "Johns Hopkins University Applied Physics Laboratory (JHU/APL)"] },
+  "equipmentType": "Orbiter",
+  "illustration": "messenger",
+  "destinations": [
+    { "id": "mercury", "encounterTypes": ["flyby", "orbit", "surface-impact"], "note": "Three flybys, then orbit around Mercury (2011–2015), then a planned, expected impact on the surface." }
+  ],
+  "encounterType": ["flyby", "orbit", "surface-impact"],
+  "launchDate": "2004-08-03",
+  "arrivalDate": "2011-03-18",
+  "lastContactDate": "2015-04-30",
+  "missionEndDate": "2015-04-30",
+  "dateNotes": [
+    "Orbit insertion: March 18, 2011 UTC (March 17 in U.S. time).",
+    "Flight operations ended with the impact on April 30, 2015; the data-analysis project continued until May 2016."
+  ],
+  "status": { "code": "destroyed", "text": "Ended by impacting Mercury's surface on April 30, 2015 — no longer an intact spacecraft" },
+  "finalFate": "After running out of propellant, solar gravity lowered the closest point of its orbit until it struck Mercury at about 3.91 km/s in the northern hemisphere, out of view from Earth. Engineers estimated the impact made a crater about 16 meters wide; it has not been observed yet, and the BepiColombo mission may be able to search for it.",
+  "location": {
+    "description": "Predicted impact site near the Shakespeare basin in Mercury's northern hemisphere.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Neutron Spectrometer", "role": "Measured hydrogen concentration, pointing to water ice." },
+    { "name": "Mercury Laser Altimeter (MLA)", "role": "Measured surface topography and the depth of polar craters." },
+    { "name": "X-Ray Spectrometer (XRS)", "role": "Measured the abundance of key elements on the surface." },
+    { "name": "Mercury Dual Imaging System (MDIS)", "role": "Photographed the planet, including the first optical images of polar ice." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "An umbrella against the Sun",
+      "howItWorks": "MESSENGER carried a big protective shield and always kept it facing the Sun, so the instruments behind it stayed in the shade.",
+      "knowledge": "Thanks to the shield, the instruments worked for years near the Sun and discovered ice in Mercury's dark craters."
+    },
+    "secondary": {
+      "title": "The neutron spectrometer: hunting for hydrogen",
+      "howItWorks": "Cosmic rays hit the surface and knock out neutrons. Hydrogen slows neutrons strongly, so the number of neutrons reaching the spacecraft changes over hydrogen-rich areas.",
+      "knowledge": "Hydrogen measured over the radar-bright areas translates into water-ice concentration. Combined with laser measurements of permanent shadow, temperatures and images, the evidence came from several independent sources."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "Entering orbit around Mercury requires slowing down a lot, because falling toward the Sun speeds a spacecraft up; and the heat near the Sun is intense.",
+    "solution": "A long route with planetary flybys to use their gravity to change speed — including three flybys of Mercury itself — plus a sunshade that always faced the Sun."
+  },
+  "discoveries": [
+    { "text": "First spacecraft to orbit Mercury, producing its first detailed global maps.", "kind": "outcome" },
+    { "text": "High hydrogen measured in the radar-bright polar deposits, confirmed to lie in permanent shadow.", "kind": "outcome" },
+    { "text": "Water ice is the main component of the north polar deposits.", "kind": "interpretation" },
+    { "text": "First optical images of ice and frozen material inside dark polar craters (2014).", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "2004-08-03", "text": "Launch from Cape Canaveral." },
+    { "date": "2008–2009", "text": "Three Mercury flybys image about 91% of the surface." },
+    { "date": "2011-03-18", "text": "First spacecraft to enter orbit around Mercury (UTC)." },
+    { "date": "2012", "text": "Strong evidence for water ice in polar craters announced." },
+    { "date": "2014-10-15", "text": "First optical images of polar ice announced." },
+    { "date": "2015-04-30", "text": "Out of propellant, it impacts Mercury's surface." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am MESSENGER, the first spacecraft to circle Mercury, the planet closest to the Sun. I left Earth in 2004 and reached Mercury's orbit in 2011." },
+      { "key": "why", "text": "I was sent to map Mercury, find out what it is made of, and solve the mystery of shiny spots at its poles." },
+      { "key": "how", "text": "The Sun was very close and very hot. So I always kept a big sunshade between me and the Sun, like a beach umbrella!" },
+      { "key": "learn", "text": "I helped scientists confirm there is water ice inside craters that are always dark at the poles. Ice on the planet closest to the Sun — what a surprise!" },
+      { "key": "fate", "text": "When my fuel ran out in 2015, I fell and crashed into Mercury very, very fast. I am no longer whole; I probably made a small new crater." }
+    ],
+    "glossary": [
+      { "term": "Orbit", "meaning": "To travel around and around a planet without landing." },
+      { "term": "Poles", "meaning": "The very top and very bottom of a planet, like Earth's North and South Poles." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am MESSENGER, an acronym for MErcury Surface, Space ENvironment, GEochemistry, and Ranging. The Johns Hopkins University Applied Physics Laboratory designed and operated me for NASA, and I launched on August 3, 2004." },
+      { "key": "why", "text": "Before me, only Mariner 10 had seen Mercury up close, in the 1970s. Many questions were open, including one about strange material at the poles that looked bright to Earth-based radar: was it water ice in craters the Sun never reaches?" },
+      { "key": "how", "text": "Reaching Mercury is hard because a spacecraft must shed a great deal of speed. So I followed a long path with flybys of planets, including three flybys of Mercury, before entering orbit on March 18, 2011. A sunshade that always faced the Sun protected me." },
+      { "key": "learn", "text": "My neutron spectrometer measured hydrogen in the radar-bright areas, my laser altimeter confirmed they sit in permanent shadow, and in 2014 my camera took the first optical images of the ice. Independent lines of evidence agreed that water ice is the main component of the north polar deposits." },
+      { "key": "fate", "text": "I was planned for one year in orbit, and my mission was extended twice. When my propellant ran out, the Sun's gravity lowered my orbit, and I struck Mercury on April 30, 2015, at about 3.9 km per second, out of view from Earth. My crater was estimated at about 16 meters across; nobody has observed it yet." }
+    ],
+    "glossary": [
+      { "term": "Permanent shadow", "meaning": "A place sunlight never reaches, so it stays extremely cold." },
+      { "term": "Gravity-assist flyby", "meaning": "Passing near a planet to use its gravity to change a spacecraft's speed and direction." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each word to its meaning",
+    "instructions": "Tap a card in the first column, then tap the matching meaning.",
+    "pairs": [
+      { "left": "The sunshade", "right": "Protects the spacecraft from the Sun's heat" },
+      { "left": "Water ice", "right": "Found in dark craters at the poles" },
+      { "left": "Running out of fuel", "right": "Made the spacecraft fall onto Mercury" },
+      { "left": "Orbit", "right": "The path of a spacecraft around a planet" }
+    ],
+    "questions": [
+      {
+        "q": "Why did MESSENGER need a shield?",
+        "options": ["It was very close to the hot Sun", "To protect it from rain", "To hide from the planets"],
+        "correctIndex": 0,
+        "explanation": "Mercury is the closest planet to the Sun, and the shield kept the instruments in the shade."
+      },
+      {
+        "q": "What happened to MESSENGER in the end?",
+        "options": ["It came back to Earth", "It crashed into Mercury's surface", "It is still circling Mercury"],
+        "correctIndex": 1,
+        "explanation": "After its fuel ran out, it fell and hit the surface in 2015, so it is no longer a whole spacecraft."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Independent evidence for Mercury's ice",
+    "instructions": "Study how evidence from different tools came together, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified from APL and NASA results (2011–2014).",
+    "table": {
+      "headers": ["Source of evidence", "What was measured", "What it suggests"],
+      "rows": [
+        ["Earth-based radar (before MESSENGER)", "Radar-bright areas at the poles", "Unusual material, possibly ice"],
+        ["Laser altimeter", "Deposits lie in permanent shadow", "Cold enough for ice to last"],
+        ["Neutron spectrometer", "High hydrogen over those areas", "High concentration of water ice"],
+        ["Camera (2014)", "Optical images of a bright surface inside a dark crater", "Ice exposed at the surface"]
+      ]
+    },
+    "task": {
+      "q": "Why does agreement between these tools strengthen the conclusion?",
+      "options": ["Each tool measures a different property, so it is unlikely they are all wrong in the same way", "The tools were built in the same factory", "More tools always guarantee the right answer"],
+      "correctIndex": 0,
+      "explanation": "Independent evidence (radar, shadow, hydrogen, images) rules out alternative explanations one by one. Even so, the conclusion remains open to revision."
+    },
+    "questions": [
+      {
+        "q": "Why is entering Mercury's orbit difficult?",
+        "options": ["A spacecraft gains a lot of speed falling toward the Sun and must get rid of it", "Mercury has no gravity", "Mercury is far from the Sun"],
+        "correctIndex": 0,
+        "explanation": "That is why MESSENGER used many flybys instead of flying there directly."
+      },
+      {
+        "q": "'The crater is about 16 meters across.' What kind of information is this?",
+        "options": ["A pre-impact engineering estimate, not yet observed", "A direct camera measurement", "Information from the spacecraft's last message"],
+        "correctIndex": 0,
+        "explanation": "The impact happened out of view of Earth, and the crater has not been imaged. Telling estimates from measurements is essential."
+      },
+      {
+        "q": "How did the team know the impact had happened even though nobody saw it?",
+        "options": ["No signal arrived at the next expected communication window", "They saw it with a home telescope", "The spacecraft sent a picture of the crater"],
+        "correctIndex": 0,
+        "explanation": "Silence in the next contact window was the confirmation. Here, the expected loss of signal is indirect evidence."
+      }
+    ]
+  },
+  "badge": { "name": "Shadow Keeper Badge", "emoji": "☀️" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of an orbiter behind a large sunshade, with two solar panels.",
+  "imageCredit": "Schematic drawing of the spacecraft during its mission — made for the Explorer Echoes project. The spacecraft no longer exists in this form.",
+  "imageSourceUrl": "https://science.nasa.gov/mission/messenger/",
+  "factSources": [
+    { "title": "MESSENGER Data from Mercury Orbit Confirm Theories, Offer Surprises", "publisher": "Johns Hopkins APL", "url": "https://www.jhuapl.edu/PressRelease/110616", "primary": true, "supports": "Orbit insertion March 18, 2011; polar-ice hypothesis tested with the laser altimeter." },
+    { "title": "NASA Celebrates MESSENGER Mission Prior to Surface Impact", "publisher": "Johns Hopkins APL", "url": "https://jhuapl.edu/PressRelease/150416", "primary": true, "supports": "Expected impact speed of 3.91 km/s on April 30." },
+    { "title": "MESSENGER Mission News, Oct. 15, 2014 (archived)", "publisher": "Johns Hopkins APL (UNT web archive)", "url": "https://webarchive.library.unt.edu/dentonfracking/20141030023854/http://messenger.jhuapl.edu/news_room/details.php?id=266", "primary": true, "supports": "First optical images of ice; launch, orbit and extension dates." },
+    { "title": "NASA completes MESSENGER mission with expected impact on Mercury's surface", "publisher": "Johns Hopkins APL (via Phys.org)", "url": "https://phys.org/news/2015-05-nasa-messenger-mission-impact-mercury.html", "primary": false, "supports": "Final image; possible crater detection by BepiColombo; data archiving; project through May 2016." },
+    { "title": "MESSENGER ends mission, crashes into Mercury", "publisher": "EarthSky", "url": "https://earthsky.org/space/six-cool-things-about-messengers-april-30-mercury-crash/", "primary": false, "supports": "Solar gravity lowering the orbit's low point; two mission extensions." },
+    { "title": "MESSENGER finds water ice at Mercury (2012)", "publisher": "SpaceNews (NASA/APL release)", "url": "https://spacenews.com/?p=487692", "primary": false, "supports": "Neutron spectrometer and hydrogen; ice as the main component of north polar deposits." },
+    { "title": "Messenger mission ends with plunge into Mercury", "publisher": "Spaceflight Now", "url": "https://spaceflightnow.com/2015/04/30/messenger-mission-ends-with-plunge-into-mercury/", "primary": false, "supports": "Impact in the northern hemisphere out of view from Earth, near the Shakespeare basin." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The exact flyby sequence (one Earth flyby and two Venus flybys) is widely documented but was not verified in this review; the story only says 'flybys of planets'.",
+    "The explanation of how the neutron spectrometer works is simplified for teaching."
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "galileo",
+  "name": "Galileo",
+  "mission": { "name": "Galileo", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)", "Federal Republic of Germany — propulsion module (built by MBB)", "NASA Ames Research Center — atmospheric probe"] },
+  "equipmentType": "Orbiter with an atmospheric entry probe",
+  "illustration": "galileo",
+  "destinations": [
+    { "id": "jupiter", "encounterTypes": ["orbit", "atmospheric-entry"], "note": "The probe entered the atmosphere in 1995; the orbiter circled Jupiter until it was deliberately sent into the atmosphere and destroyed in 2003." }
+  ],
+  "encounterType": ["orbit", "atmospheric-entry"],
+  "launchDate": "1989-10-18",
+  "arrivalDate": "1995-12-07",
+  "lastContactDate": "2003-09-21",
+  "missionEndDate": "2003-09-21",
+  "dateNotes": [
+    "NASA's page gives the probe release as July 12, 1995 in its table and July 13 in its text.",
+    "The orbiter's arrival at Jupiter and the probe's atmospheric entry happened on the same day: December 7, 1995."
+  ],
+  "status": { "code": "destroyed", "text": "Deliberately destroyed in Jupiter's atmosphere on September 21, 2003 — nothing of the spacecraft remains" },
+  "finalFate": "With its propellant nearly gone, the spacecraft could no longer point its antenna or adjust its path, so it was deliberately steered into Jupiter to avoid any chance of hitting the moon Europa, which may hide an ocean under its ice. It broke apart in the dense atmosphere.",
+  "location": {
+    "description": "No spacecraft remains: both the orbiter and the probe were destroyed in Jupiter's atmosphere.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Magnetometer", "role": "Measured magnetic fields near the moons, revealing evidence of salty water layers." },
+    { "name": "Solid-State Imaging camera and Near-Infrared Mapping Spectrometer (NIMS)", "role": "Imaged the moons and analyzed their surface composition." },
+    { "name": "Galileo atmospheric probe", "role": "Measured Jupiter's atmosphere directly as it descended through it." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A space compass that finds hidden water",
+      "howItWorks": "Galileo carried an instrument that measures magnetism around moons, like a very smart compass.",
+      "knowledge": "Scientists noticed a change in the magnetism near Europa and thought there may be salty water under its ice."
+    },
+    "secondary": {
+      "title": "The magnetometer: how do we 'see' an ocean we can't see?",
+      "howItWorks": "Jupiter's magnetic field changes at each moon as it orbits. If an electrically conducting layer, such as salty water, lies beneath the surface, currents flow in it and create an 'induced' magnetic field that the magnetometer can detect during close flybys.",
+      "knowledge": "The signals measured near Europa, Ganymede and Callisto are consistent with layers of salty water. This is strong indirect evidence, not a picture of an ocean."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "The high-gain antenna did not fully open, so the data rate dropped dramatically.",
+    "solution": "The team relied on the low-gain antenna, using data compression and new onboard software to send back as much science as possible."
+  },
+  "discoveries": [
+    { "text": "First spacecraft to orbit an outer planet and first to send a probe into an outer planet's atmosphere.", "kind": "outcome" },
+    { "text": "Ganymede is the first moon known to have its own magnetic field.", "kind": "outcome" },
+    { "text": "Io's volcanic activity may be about 100 times greater than Earth's.", "kind": "interpretation" },
+    { "text": "The evidence supports liquid oceans under Europa's icy surface, and possibly salty water layers in Ganymede and Callisto.", "kind": "interpretation" },
+    { "text": "The probe found that element abundances in Jupiter's atmosphere differ from the Sun's; ammonia clouds were observed for the first time on another planet.", "kind": "outcome" }
+  ],
+  "timeline": [
+    { "date": "1989-10-18", "text": "Launch aboard Space Shuttle Atlantis (STS-34)." },
+    { "date": "1995-07", "text": "The atmospheric probe separates from the orbiter." },
+    { "date": "1995-12-07", "text": "Arrival at Jupiter; the probe enters the atmosphere." },
+    { "date": "1997-12", "text": "Primary mission complete; the mission is extended three times." },
+    { "date": "2003-09-21", "text": "Deliberate plunge into Jupiter's atmosphere to protect Europa." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Galileo, the first spacecraft to circle a giant faraway planet: Jupiter. I was launched in 1989 from a space shuttle." },
+      { "key": "why", "text": "I was sent to study Jupiter and its big moons. I also carried a small probe that would dive into Jupiter's clouds and measure them." },
+      { "key": "how", "text": "I circled Jupiter for many years. I flew close to its moons to photograph them and measure their magnetism with a compass-like tool." },
+      { "key": "learn", "text": "I found clues supporting the idea of a salty ocean under the ice of the moon Europa. And I saw that the volcanoes on the moon Io are very active." },
+      { "key": "fate", "text": "When my fuel was almost gone, scientists sent me into Jupiter on purpose in 2003, and I broke apart. This protected Europa from any germs from Earth." }
+    ],
+    "glossary": [
+      { "term": "Magnetism", "meaning": "An invisible force that moves a compass needle and surrounds some planets and moons." },
+      { "term": "Contamination", "meaning": "When germs or unwanted material reach a clean place." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Galileo, an orbiter managed by the Jet Propulsion Laboratory for NASA. The Federal Republic of Germany provided my propulsion module as NASA's major international partner. I launched on October 18, 1989, aboard the Space Shuttle Atlantis." },
+      { "key": "why", "text": "The goal was long-term study of the Jupiter system from orbit, plus a direct measurement of the atmosphere by a probe descending through it. I released the probe in July 1995, and it entered the atmosphere on December 7, 1995 — the day I arrived. I became the first spacecraft to orbit an outer planet." },
+      { "key": "how", "text": "My high-gain antenna never fully opened, so engineers relied on a low-gain antenna and developed data compression and new software to return as much science as possible at a slow rate. I carried a magnetometer, a camera and spectrometers." },
+      { "key": "learn", "text": "My magnetometer measured signals near Europa, Ganymede and Callisto that are consistent with electrically conducting salty water under the ice. That is a strong interpretation, not a direct view of an ocean. I also found that Ganymede has its own magnetic field, and the probe found Jupiter's element abundances differ from the Sun's. Io's volcanism may be about a hundred times greater than Earth's." },
+      { "key": "fate", "text": "I made 35 encounters with the large moons. With almost no propellant left, I could no longer point my antenna or change course, so I was deliberately sent into Jupiter on September 21, 2003, to avoid any accidental impact with Europa. I broke apart in the dense atmosphere; nothing of me survived." }
+    ],
+    "glossary": [
+      { "term": "High-gain antenna", "meaning": "A large dish that sends data quickly in a narrow beam toward Earth." },
+      { "term": "Planetary protection", "meaning": "Rules to avoid carrying Earth microbes to worlds that might support life." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each name to its description",
+    "instructions": "Tap a card in the first column, then tap the matching description.",
+    "pairs": [
+      { "left": "The small probe", "right": "Dove into Jupiter's clouds" },
+      { "left": "Europa", "right": "A moon that may have an ocean under its ice" },
+      { "left": "Io", "right": "A moon with very active volcanoes" },
+      { "left": "The final dive", "right": "Protected Europa from contamination" }
+    ],
+    "questions": [
+      {
+        "q": "Why was Galileo sent into Jupiter at the end?",
+        "options": ["To protect the moon Europa from contamination", "To return to Earth", "To land on Jupiter and stay there"],
+        "correctIndex": 0,
+        "explanation": "If it had hit Europa by accident, it might have carried germs from Earth. So scientists chose a safe ending."
+      },
+      {
+        "q": "What did Galileo find out about Europa?",
+        "options": ["Clues of an ocean under the ice", "Big forests", "Only lava volcanoes"],
+        "correctIndex": 0,
+        "explanation": "Magnetism measurements supported the idea of salty water under the ice."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "What does magnetism tell us about the moons?",
+    "instructions": "Study the summary, then choose the most careful and accurate conclusion.",
+    "dataKind": "sourced",
+    "dataNote": "A simplified qualitative summary from NASA's Galileo page. 'Induced signal' is a teaching simplification of how the measurement works.",
+    "table": {
+      "headers": ["Moon", "What Galileo detected magnetically", "Proposed interpretation"],
+      "rows": [
+        ["Europa", "A signal consistent with an induced field", "A layer of salty water under the ice"],
+        ["Ganymede", "Its own magnetic field, plus extra signals", "A core generating a field + a possible salty water layer"],
+        ["Callisto", "A signal consistent with an induced field", "A possible salty water layer"]
+      ]
+    },
+    "task": {
+      "q": "Based on the table, which conclusion is the most scientifically accurate?",
+      "options": ["The data are consistent with conducting salty water layers, but do not show the ocean directly", "Galileo photographed Europa's ocean", "Life on Europa has been proven"],
+      "correctIndex": 0,
+      "explanation": "The magnetometer detects an electromagnetic effect. The strongest justified wording is 'consistent with'; life was not something Galileo measured."
+    },
+    "questions": [
+      {
+        "q": "How does data compression help when the transmission rate is slow?",
+        "options": ["It reduces the number of bits needed to send roughly the same information", "It increases signal strength", "It repairs the antenna"],
+        "correctIndex": 0,
+        "explanation": "By removing redundancy, more information fits through the same slow channel."
+      },
+      {
+        "q": "Why wasn't Galileo left to circle Jupiter without fuel?",
+        "options": ["Its orbit could change over time and it might crash into a moon that could support life", "It would have hit Earth", "Fuel was needed for the camera"],
+        "correctIndex": 0,
+        "explanation": "Without fuel the path cannot be controlled. A deliberate plunge into Jupiter was the safe choice."
+      },
+      {
+        "q": "Which statement is an observation rather than an interpretation?",
+        "options": ["Ganymede has its own magnetic field", "There is an ocean under Europa's ice", "Callisto may have a water layer"],
+        "correctIndex": 0,
+        "explanation": "The magnetic field was measured directly. The existence of oceans is an interpretation of those measurements."
+      }
+    ]
+  },
+  "badge": { "name": "Europa Guardian Badge", "emoji": "🧲" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of an orbiter with a dish antenna, a long boom and a small cone-shaped probe.",
+  "imageCredit": "Schematic drawing of the spacecraft during its mission — made for the Explorer Echoes project. The spacecraft was destroyed in 2003 and no longer exists.",
+  "imageSourceUrl": "https://science.nasa.gov/galileo/",
+  "factSources": [
+    { "title": "Galileo", "publisher": "NASA Science", "url": "https://science.nasa.gov/galileo/", "primary": true, "supports": "Dates, firsts, discoveries, German partnership, reason for the deliberate plunge." },
+    { "title": "Galileo mission (35 encounters)", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/galileo/?News_ID=450", "primary": true, "supports": "35 encounters with Jupiter's major moons." },
+    { "title": "Galileo End of Mission Press Kit", "publisher": "NASA Jet Propulsion Laboratory", "url": "https://www.jpl.nasa.gov/news/press_kits/galileo-end.pdf", "primary": true, "supports": "Plunge to avoid impact with Europa; propellant depletion; three mission extensions." },
+    { "title": "Galileo End of Mission Status, 21 Sep 2003", "publisher": "NASA/JPL (via SpaceRef)", "url": "https://spaceref.com/status-report/galileo-end-of-mission-status-21-sep-2003/", "primary": false, "supports": "Disintegration in the atmosphere on September 21, 2003." },
+    { "title": "Galileo (archived encyclopedic summary)", "publisher": "Wikipedia (UNT web archive)", "url": "https://webarchive.library.unt.edu/web/20170125224046/https://en.wikipedia.org/wiki/Galileo_(spacecraft)", "primary": false, "supports": "Antenna problem and tape recorder recovery; Ames' role in the probe." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "Details of the high-gain antenna workaround (data compression and software updates) are widely documented but were not checked against the primary NASA page in this review.",
+    "The explanation of induced fields is simplified for teaching."
+  ]
+}

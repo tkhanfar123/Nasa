@@ -1,0 +1,172 @@
+{
+  "id": "voyager-2",
+  "name": "Voyager 2",
+  "mission": { "name": "Voyager", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)"] },
+  "equipmentType": "Flyby spacecraft (never landed on or orbited any planet)",
+  "illustration": "voyager",
+  "destinations": [
+    { "id": "uranus", "encounterTypes": ["flyby"], "note": "Flyby on January 24, 1986; it left no hardware there." },
+    { "id": "neptune", "encounterTypes": ["flyby"], "note": "Flyby on August 25, 1989; it left no hardware there." }
+  ],
+  "encounterType": ["flyby"],
+  "launchDate": "1977-08-20",
+  "arrivalDate": null,
+  "lastContactDate": null,
+  "missionEndDate": null,
+  "dateNotes": [
+    "There is no single 'arrival date': its encounters were flybys of Jupiter (1979), Saturn (1981), Uranus (1986) and Neptune (1989).",
+    "The mission was continuing ('Extended Mission') at the last review, so the last-contact and mission-end dates are empty.",
+    "NASA's page gives two dates for entering interstellar space (November 25 and December 10, 2018), so we write 'November–December 2018'."
+  ],
+  "status": { "code": "active", "text": "Still operating in an 'Extended Mission' in interstellar space (as of the last review) — check NASA's page for current status" },
+  "finalFate": null,
+  "location": {
+    "description": "In interstellar space, outside the heliosphere. It is not at Uranus or Neptune.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Imaging Science Subsystem", "role": "Photographed the planets, moons and rings during the flybys." },
+    { "name": "Magnetometer", "role": "Measured magnetic fields, including Uranus's tilted field." },
+    { "name": "Plasma and particle instruments", "role": "Study the solar wind and the interstellar medium." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "A free push from gravity",
+      "howItWorks": "When Voyager 2 passes close to a planet, the planet's gravity pulls on it and changes its path and speed, flinging it toward the next planet.",
+      "knowledge": "With this trick it visited four giant planets in one trip, and we saw Uranus and Neptune up close for the first time."
+    },
+    "secondary": {
+      "title": "The magnetometer at Uranus: the surprise of the tilt",
+      "howItWorks": "The magnetometer recorded the direction and strength of the magnetic field along the short flyby path, and scientists reconstructed the shape of the field around the planet from it.",
+      "knowledge": "Result: a field tilted about 55 degrees from the rotation axis and offset from the planet's center — challenging models that assume a centered field nearly aligned with the axis."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "The farther the spacecraft went, the weaker its signal at Earth, and the close-study window was very short (about 5.5 hours at Uranus).",
+    "solution": "The Deep Space Network's largest antennas were enlarged from 64 to 70 meters before the Neptune encounter, and each flyby was planned precisely to use the few close hours."
+  },
+  "discoveries": [
+    { "text": "At Uranus: 10 new moons and two new rings.", "kind": "outcome" },
+    { "text": "Uranus's magnetic field is tilted about 55 degrees and offset from the center.", "kind": "outcome" },
+    { "text": "At Neptune: new moons and rings, and the 'Great Dark Spot'.", "kind": "outcome" },
+    { "text": "Its images remain a baseline for measuring how the atmospheres of Uranus and Neptune change over time.", "kind": "interpretation" }
+  ],
+  "timeline": [
+    { "date": "1977-08-20", "text": "Launch from Cape Canaveral." },
+    { "date": "1979-07-09", "text": "Jupiter flyby." },
+    { "date": "1981-08-25", "text": "Saturn flyby." },
+    { "date": "1986-01-24", "text": "Uranus flyby — the only spacecraft to visit it." },
+    { "date": "1989-08-25", "text": "Neptune flyby — the only spacecraft to visit it." },
+    { "date": "2007-08-30", "text": "Crosses the termination shock at the edge of the heliosphere." },
+    { "date": "2018-11/12", "text": "Enters interstellar space (NASA gives two different dates)." },
+    { "date": "2019-07-08", "text": "Begins using trajectory-correction thrusters for pointing instead of its aging attitude thrusters." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Voyager 2. I launched in 1977, and I am still traveling today! I am the only spacecraft that has visited Uranus and Neptune." },
+      { "key": "why", "text": "I was sent to visit the faraway giant planets. In those years, their positions let me hop from one planet to the next." },
+      { "key": "how", "text": "I never landed on any planet. I zoomed past each one, taking pictures and measurements, and then its gravity helped fling me toward the next planet." },
+      { "key": "learn", "text": "At Uranus I discovered new moons and rings. At Neptune I saw a big dark storm that scientists named the 'Great Dark Spot'." },
+      { "key": "fate", "text": "After Neptune I kept going, and now I am in the space between the stars, outside the Sun's bubble. I left nothing behind on Uranus or Neptune." }
+    ],
+    "glossary": [
+      { "term": "Flyby", "meaning": "Passing close to a planet without landing on it or circling it." },
+      { "term": "Gravity", "meaning": "The force that pulls things toward a planet." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am Voyager 2, launched on August 20, 1977. I flew past Jupiter in 1979 and Saturn in 1981, then was sent on to Uranus and Neptune. I am still the only spacecraft to have visited those two planets, and every encounter I made was a flyby — never a landing, never an orbit." },
+      { "key": "why", "text": "Extending my route to Uranus and Neptune was conditional: if Voyager 1 succeeded at its goals, I could be redirected using gravity-assist maneuvers. The trip from Saturn to Uranus took about four and a half years." },
+      { "key": "how", "text": "At Uranus I had only about 5.5 hours for close study, with closest approach on January 24, 1986, at about 81,500 kilometers. Because signals weaken with distance, the Deep Space Network's largest antennas were enlarged from 64 to 70 meters before the Neptune encounter." },
+      { "key": "learn", "text": "At Uranus I discovered 10 new moons and two rings, and a magnetic field tilted about 55 degrees from the rotation axis and offset from the center. At Neptune, on August 25, 1989, I discovered moons, rings and the 'Great Dark Spot'. My images are still a baseline for comparing how both planets' weather changes." },
+      { "key": "fate", "text": "I am not at Uranus or Neptune today. I crossed the termination shock in 2007 and entered interstellar space in late 2018. NASA lists me as an 'Extended Mission', but my power keeps declining, and engineers are making difficult choices about instruments and thrusters. My status changes, so check NASA's page." }
+    ],
+    "glossary": [
+      { "term": "Termination shock", "meaning": "A boundary where the solar wind suddenly slows down, before the edge of the heliosphere." },
+      { "term": "Interstellar space", "meaning": "The region outside the bubble of particles and magnetic fields blown out by the Sun." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each word to its meaning",
+    "instructions": "Tap a card in the first column, then tap the matching meaning.",
+    "pairs": [
+      { "left": "Uranus", "right": "Voyager 2 visited it in 1986" },
+      { "left": "Neptune", "right": "Voyager 2 saw a big dark spot there" },
+      { "left": "Flyby", "right": "Passing close to a planet without landing" },
+      { "left": "Interstellar space", "right": "Where Voyager 2 is traveling now" }
+    ],
+    "questions": [
+      {
+        "q": "Did Voyager 2 land on Neptune?",
+        "options": ["Yes, and it is still there", "No, it flew past and kept going", "Yes, then it came back to Earth"],
+        "correctIndex": 1,
+        "explanation": "Voyager 2 made a flyby, so there is no hardware on Neptune."
+      },
+      {
+        "q": "Where is Voyager 2 now?",
+        "options": ["On Uranus", "In the space between the stars", "In a museum"],
+        "correctIndex": 1,
+        "explanation": "It left the Sun's bubble in 2018 and is still traveling."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Timetable of a long journey",
+    "instructions": "Study the flyby dates, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Dates from NASA's Voyager 2 page.",
+    "table": {
+      "headers": ["Planet", "Flyby date"],
+      "rows": [
+        ["Jupiter", "July 9, 1979"],
+        ["Saturn", "August 25, 1981"],
+        ["Uranus", "January 24, 1986"],
+        ["Neptune", "August 25, 1989"]
+      ]
+    },
+    "task": {
+      "q": "About how much time passed between the Uranus flyby and the Neptune flyby?",
+      "options": ["About 3.6 years", "About 8 years", "About 6 months", "About 12 years"],
+      "correctIndex": 0,
+      "explanation": "From January 1986 to August 1989 is about three years and seven months. Distances between the outer planets are enormous."
+    },
+    "questions": [
+      {
+        "q": "Why were the Deep Space Network antennas enlarged before the Neptune encounter?",
+        "options": ["To catch a weaker signal coming from farther away", "To send fuel to the spacecraft", "To photograph Neptune from Earth"],
+        "correctIndex": 0,
+        "explanation": "A larger dish collects more signal energy, so more data can be received with fewer errors."
+      },
+      {
+        "q": "NASA's page says 'five new moons' at Neptune in one place and 'six' in another. What is the correct scientific response?",
+        "options": ["Check other primary sources and document the discrepancy instead of picking a number at random", "Pick the bigger number because it is more exciting", "Delete the information without explanation"],
+        "correctIndex": 0,
+        "explanation": "Even reliable sources can contain inconsistencies. That is why this site says 'new moons' without a number until it is resolved."
+      },
+      {
+        "q": "'Uranus's field is tilted about 55 degrees.' This statement is…",
+        "options": ["A result measured by the magnetometer", "A guess with no data", "Information from a spacecraft that landed on Uranus"],
+        "correctIndex": 0,
+        "explanation": "The measurement came from the flyby itself; no spacecraft has landed on Uranus."
+      }
+    ]
+  },
+  "badge": { "name": "Star Crosser Badge", "emoji": "🌌" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a spacecraft with a large dish antenna, a long science boom and power cylinders.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://science.nasa.gov/mission/voyager/voyager-2/",
+  "factSources": [
+    { "title": "Voyager 2", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/voyager/voyager-2/", "primary": true, "supports": "All flyby dates; discoveries at Uranus and Neptune; 55° tilted field; extended mission; correction thrusters since 2019; difficult choices about instruments." },
+    { "title": "Voyager 2 (In Depth)", "publisher": "NASA Science", "url": "https://science.nasa.gov/?p=107329", "primary": true, "supports": "Conditional redirection to Uranus and Neptune; 4.5 years to Uranus; 5.5 hours of close study; 81,500 km." },
+    { "title": "Voyager 2: Our 1st and only visit to Neptune", "publisher": "EarthSky", "url": "https://earthsky.org/space/voyager-2-neptune-flyby-august-25-1989/", "primary": false, "supports": "DSN antennas enlarged from 64 to 70 m; Neptune about 30 times farther from the Sun than Earth." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "Operating status changes over time; this reflects NASA's page at review time. We do not state the number of working instruments or the current distance because they change and were not verified from a primary source.",
+    "The number of Neptune moons discovered is inconsistent on NASA's page (5 or 6), so no number is given."
+  ]
+}

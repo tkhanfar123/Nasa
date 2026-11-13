@@ -1,0 +1,171 @@
+{
+  "id": "insight",
+  "name": "InSight",
+  "mission": { "name": "InSight (Interior Exploration using Seismic Investigations, Geodesy and Heat Transport)", "partners": ["NASA", "Jet Propulsion Laboratory (JPL)", "French space agency (CNES)", "German Aerospace Center (DLR)", "Other European partners"] },
+  "equipmentType": "Stationary lander",
+  "illustration": "insight",
+  "destinations": [
+    { "id": "mars", "encounterTypes": ["surface-landing"], "note": "Landed on Elysium Planitia and stayed in place for the whole mission." }
+  ],
+  "encounterType": ["surface-landing"],
+  "launchDate": "2018-05-05",
+  "arrivalDate": "2018-11-26",
+  "lastContactDate": "2022-12-15",
+  "missionEndDate": "2022-12-21",
+  "dateNotes": [
+    "NASA decided in advance to declare the mission over if the lander missed two consecutive communication attempts; last contact was December 15, and the announcement came on December 21, 2022."
+  ],
+  "status": { "code": "inactive-on-surface", "text": "Silent on the surface of Mars since December 2022" },
+  "finalFate": "Ran out of power after dust built up on its solar panels. It remains at its site on Elysium Planitia with its seismometer under its shield. NASA's Deep Space Network continued listening just in case, but hearing from it is considered unlikely.",
+  "location": {
+    "description": "Elysium Planitia, a flat plain on Mars.",
+    "coordinates": null
+  },
+  "instruments": [
+    { "name": "Seismic Experiment for Interior Structure (SEIS) — provided by CNES", "role": "Recorded marsquakes and meteoroid impacts." },
+    { "name": "Heat Flow and Physical Properties Package (HP³, 'the mole') — provided by DLR", "role": "Designed to dig into the soil and measure heat flowing from the interior, but it could not burrow as planned." },
+    { "name": "Rotation and Interior Structure Experiment (RISE)", "role": "Used radio signals to measure the wobble of Mars as it spins." },
+    { "name": "Temperature and wind sensors (Spain's CAB)", "role": "Tracked the weather and helped separate wind shaking from quakes." }
+  ],
+  "spotlight": {
+    "primary": {
+      "title": "An ear that hears Mars shake",
+      "howItWorks": "A seismometer is a super-sensitive machine that feels the tiniest shake. InSight's arm placed it on the ground and covered it with a dome.",
+      "knowledge": "From the shaking, scientists learned that Mars has layers inside, and that its center is liquid."
+    },
+    "secondary": {
+      "title": "SEIS: how seismic waves reveal a planet's layers",
+      "howItWorks": "Seismic waves change speed and shape as they pass through different materials, and they reflect off boundaries between layers. Measuring the arrival times of direct and reflected waves at a single station lets scientists infer the depth of those boundaries.",
+      "knowledge": "About 35 quakes (magnitudes 3 to 4) were used to estimate crust thickness, mantle depth (about 1,560 km) and core radius (about 1,830 km in the 2021 estimate). Analyses in 2023 later revised that estimate."
+    }
+  },
+  "engineeringChallenge": {
+    "challenge": "Mars is fairly quiet seismically, and wind shakes instruments, creating 'noise' that looks like quakes. Later, dust piled up on the solar panels and power dropped.",
+    "solution": "The seismometer was covered with a wind and thermal shield, and its signals were studied alongside weather data to tell quakes from wind. The team also used the arm and scoop to remove some dust from the panels, extending the mission."
+  },
+  "discoveries": [
+    { "text": "Detected 1,319 marsquakes, some caused by meteoroid impacts.", "kind": "outcome" },
+    { "text": "A large meteoroid impact in 2021 exposed boulder-sized chunks of ice.", "kind": "outcome" },
+    { "text": "Confirmation that Mars's core is molten, with estimates of mantle depth and core radius (2021).", "kind": "interpretation" },
+    { "text": "2023 analyses: the core is smaller and denser than thought, surrounded by a molten silicate layer about 150 km thick.", "kind": "interpretation" }
+  ],
+  "timeline": [
+    { "date": "2018-05-05", "text": "Launch from Earth." },
+    { "date": "2018-11-26", "text": "Landing on Elysium Planitia." },
+    { "date": "2019", "text": "Seismometer placed on the surface; monitoring begins." },
+    { "date": "2021-07-23", "text": "First models of Mars's interior structure published in Science." },
+    { "date": "2022-12-15", "text": "Last contact with Earth." },
+    { "date": "2022-12-21", "text": "NASA declares the mission over." },
+    { "date": "2023-04-24", "text": "New study of InSight data: the core is smaller and denser (after the mission ended)." }
+  ],
+  "primaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am InSight, a lander that does not move. I have two round solar panels. I landed on a flat plain on Mars in 2018." },
+      { "key": "why", "text": "I was sent to listen to the inside of Mars. What is under the surface? A crust? A mantle? A core in the middle?" },
+      { "key": "how", "text": "With my arm, I placed a seismometer on the ground. It can feel the tiniest shake. Then I covered it with a dome against wind and cold." },
+      { "key": "learn", "text": "I recorded 1,319 marsquakes! From the way the shaking traveled, scientists learned that Mars has a crust, a mantle and a liquid core." },
+      { "key": "fate", "text": "Dust piled up on my panels, so I made less and less electricity. The last time I talked to Earth was in December 2022. I still stand there, quiet." }
+    ],
+    "glossary": [
+      { "term": "Seismometer", "meaning": "A machine that measures the ground shaking (quakes)." },
+      { "term": "Mantle", "meaning": "The thick layer between the crust and the core." },
+      { "term": "Core", "meaning": "The deep center of a planet." }
+    ]
+  },
+  "secondaryStory": {
+    "chapters": [
+      { "key": "who", "text": "I am InSight, a stationary lander from NASA's Discovery program. I landed on November 26, 2018, on the flat plain of Elysium Planitia. European agencies contributed to my instruments, especially the French space agency CNES and the German Aerospace Center DLR." },
+      { "key": "why", "text": "Before me, Mars missions focused on the surface. My goal was to measure the depth, size and structure of the planet's three layers — crust, mantle and core — to understand how rocky planets form, including Earth and the Moon." },
+      { "key": "how", "text": "My main instrument was the SEIS seismometer, provided by CNES. Seismic waves change speed and shape as they cross different materials, revealing the boundaries between layers. The challenge: Mars is fairly quiet and wind makes noise, so the seismometer was covered by a shield and its signals were compared with weather data." },
+      { "key": "learn", "text": "I detected 1,319 quakes, some from meteoroid impacts. In 2021 scientists estimated the core's radius at about 1,830 kilometers and confirmed it was molten, with the mantle reaching about 1,560 kilometers deep. Then 2023 analyses of waves that crossed the core showed it was smaller and denser, wrapped in a layer of molten rock. That is how interpretations improve with better data." },
+      { "key": "fate", "text": "My heat probe, 'the mole', could not burrow into the soil as planned. The team used my arm to clear some dust from my panels, and my mission was extended. But power kept falling: my last contact was December 15, 2022, and NASA announced the end on December 21. My data will be studied for many years." }
+    ],
+    "glossary": [
+      { "term": "Seismic waves", "meaning": "Vibrations that travel through a planet after a quake or impact." },
+      { "term": "Noise", "meaning": "Signals unrelated to what you want to measure, such as shaking from wind." }
+    ]
+  },
+  "primaryActivity": {
+    "type": "matching",
+    "title": "Match each part to its job",
+    "instructions": "Tap a card in the first column, then tap the job that goes with it.",
+    "pairs": [
+      { "left": "The seismometer", "right": "Feels quakes and shaking" },
+      { "left": "The solar panels", "right": "Make electricity from sunlight" },
+      { "left": "The dome", "right": "Protects the instrument from wind" },
+      { "left": "The arm", "right": "Placed instruments on the ground" }
+    ],
+    "questions": [
+      {
+        "q": "What was InSight's goal?",
+        "options": ["To study the inside of Mars", "To look for trees", "To drive cars on Mars"],
+        "correctIndex": 0,
+        "explanation": "InSight 'listened' to quakes to learn about the layers deep inside Mars."
+      },
+      {
+        "q": "Why did InSight stop working?",
+        "options": ["Dust on its panels reduced its electricity", "It fell into a hole", "It flew away"],
+        "correctIndex": 0,
+        "explanation": "Dust blocks light from the panels, so electricity drops until the lander stops."
+      }
+    ]
+  },
+  "secondaryActivity": {
+    "type": "observation",
+    "title": "Two estimates of the core: what changed and why?",
+    "instructions": "Compare two published results from InSight data, then answer.",
+    "dataKind": "sourced",
+    "dataNote": "Simplified from NASA/JPL (2021) and the 2023 study as presented by NASA and ETH Zurich. The exact 2023 figure is not shown here.",
+    "table": {
+      "headers": ["Year", "Data used", "Result"],
+      "rows": [
+        ["2021", "About 35 relatively nearby quakes (magnitude 3–4)", "Molten core, radius about 1,830 km"],
+        ["2023", "Two 2021 quakes on the far side of Mars whose waves crossed the core", "Smaller, denser core surrounded by a molten silicate layer (~150 km)"]
+      ]
+    },
+    "task": {
+      "q": "What is the most likely reason the core-size estimate changed?",
+      "options": ["New data from waves that passed through the core itself allowed a better model", "The instrument made a deliberate error in 2021", "The core actually shrank between 2021 and 2023"],
+      "correctIndex": 0,
+      "explanation": "Distant quakes sent waves through the core, adding new constraints. The interpretation changed because the evidence improved, not because Mars changed in two years."
+    },
+    "questions": [
+      {
+        "q": "Why does the seismometer need wind data?",
+        "options": ["To tell wind shaking apart from a real quake", "To know where the Sun is", "To power the panels"],
+        "correctIndex": 0,
+        "explanation": "Wind shakes the ground and instruments slightly; without weather data, noise and signal could be confused."
+      },
+      {
+        "q": "Why is measuring Mars's interior useful for understanding Earth?",
+        "options": ["Comparing rocky planets helps explain how they all form", "Mars is part of Earth", "It is not useful"],
+        "correctIndex": 0,
+        "explanation": "Mars has no tectonic plates like Earth's, so it preserves an early record; comparing the two gives a wider picture."
+      },
+      {
+        "q": "What does using the arm to remove dust show?",
+        "options": ["Engineers repurpose a tool to solve a problem it wasn't designed for", "The arm was built mainly for cleaning", "Dust doesn't affect power"],
+        "correctIndex": 0,
+        "explanation": "Creative fixes with available resources are common on distant missions, where no technician can be sent."
+      }
+    ]
+  },
+  "badge": { "name": "Quake Listener Badge", "emoji": "🎧" },
+  "imageUrl": null,
+  "imageAlt": "Schematic drawing of a lander with two round solar panels and a seismometer dome in front of it.",
+  "imageCredit": "Schematic illustration made for the Explorer Echoes project — not a photograph.",
+  "imageSourceUrl": "https://www.jpl.nasa.gov/news/nasas-insight-reveals-the-deep-interior-of-mars/",
+  "factSources": [
+    { "title": "NASA's InSight Reveals the Deep Interior of Mars", "publisher": "NASA Jet Propulsion Laboratory", "url": "https://www.jpl.nasa.gov/news/nasas-insight-reveals-the-deep-interior-of-mars/", "primary": true, "supports": "2021 results: molten core of ~1,830 km radius; mantle ~1,560 km; about 35 quakes; SEIS partners; CAB sensors." },
+    { "title": "NASA Retires InSight Mars Lander Mission After Years of Science", "publisher": "NASA/JPL (via EarthSky)", "url": "https://earthsky.org/space/insight-falls-silent-nasa-declares-mission-end/", "primary": false, "supports": "1,319 marsquakes; two-missed-contacts rule; dust on panels; landing Nov. 26, 2018." },
+    { "title": "NASA InSight Study Provides Clearest Look Ever at Martian Core", "publisher": "NASA (via SpaceRef)", "url": "https://spaceref.com/?p=208108", "primary": false, "supports": "2023 study: smaller, denser core; CNES and DLR partnership." },
+    { "title": "Mystery of the Martian core solved", "publisher": "ETH Zurich", "url": "https://ethrat.mironet.ch/research/mystery-of-the-martian-core-solved.html", "primary": false, "supports": "Molten silicate layer about 150 km around the core." },
+    { "title": "NASA officially retires its InSight Mars lander", "publisher": "Engadget", "url": "https://www.engadget.com/nasa-officially-retires-its-in-sight-mars-lander-190245298.html", "primary": false, "supports": "Last contact December 15, 2022." },
+    { "title": "InSight mission page", "publisher": "NASA Science", "url": "https://science.nasa.gov/mission/insight/", "primary": true, "supports": "Official mission page (could not be opened during the review)." }
+  ],
+  "lastReviewedAt": "2026-11-13",
+  "verificationNotes": [
+    "The launch date (May 5, 2018) was not confirmed directly from NASA's page during the review; secondary sources say 'May 2018'.",
+    "Some facts come from NASA releases as republished by news sites; they should be linked to the original NASA pages."
+  ]
+}
